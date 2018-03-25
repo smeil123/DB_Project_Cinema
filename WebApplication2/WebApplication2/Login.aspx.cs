@@ -13,5 +13,15 @@ namespace WebApplication2
         {
 
         }
+
+        protected void Unnamed1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Non_memberResidentText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

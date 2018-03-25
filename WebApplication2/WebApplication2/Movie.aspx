@@ -11,10 +11,10 @@
             width: 100%;
         }
         .auto-style2 {
-            width: 36px;
+            width: 314px;
         }
         .auto-style3 {
-            height: 115px;
+            height: 211px;
         }
         .auto-style4 {
             width: 220px;
@@ -28,6 +28,17 @@
         }
         .auto-style7 {
             height: 24px;
+        }
+        .auto-style8 {
+            height: 24px;
+            width: 314px;
+        }
+        .auto-style9 {
+            width: 220px;
+            height: 81px;
+        }
+        .auto-style10 {
+            height: 81px;
         }
     </style>
 </head>
@@ -46,7 +57,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style2" rowspan="3">
-                        <asp:Image ID="Image1" runat="server" Height="301px" Width="312px" />
+                        <asp:Image ID="Image1" runat="server" Height="275px" Width="293px" />
                     </td>
                     <td colspan="2">
                         <asp:Label ID="MovieLabel" runat="server" Text="영화 제목"></asp:Label>
@@ -58,10 +69,10 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style4">
+                    <td class="auto-style9">
                         <asp:Button ID="MVTicketionButton" runat="server" Height="0px" Text="예매하기" Width="204px" />
                     </td>
-                    <td>
+                    <td class="auto-style10">
                         <asp:Button ID="KeepingButton" runat="server" Text="관심리스트 담기" />
                     </td>
                 </tr>
@@ -73,7 +84,7 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style5">
+                    <td class="auto-style8">
                         <asp:Label ID="Label3" runat="server" Text="영화 리뷰"></asp:Label>
                     </td>
                     <td class="auto-style6"></td>

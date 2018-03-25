@@ -26,11 +26,11 @@
         .auto-style9 {
             width: 252px;
             text-align: right;
-            height: 27px;
+            height: 25px;
         }
         .auto-style10 {
             width: 228px;
-            height: 27px;
+            height: 25px;
         }
         .auto-style11 {
             width: 252px;
@@ -48,10 +48,6 @@
         .auto-style14 {
             width: 171px;
         }
-        .auto-style15 {
-            width: 171px;
-            height: 43px;
-        }
         .auto-style16 {
             width: 252px;
             text-align: right;
@@ -59,31 +55,31 @@
         .auto-style17 {
             width: 252px;
             text-align: center;
-            height: 24px;
+            height: 27px;
         }
         .auto-style19 {
             width: 228px;
-            height: 24px;
+            height: 27px;
         }
         .auto-style20 {
             width: 171px;
-            height: 24px;
+            height: 27px;
         }
         .auto-style21 {
             width: 418px;
-            height: 24px;
+            height: 27px;
         }
         .auto-style22 {
             text-align: center;
         }
         .auto-style23 {
             width: 205px;
-            height: 27px;
+            height: 25px;
             text-align: right;
         }
         .auto-style24 {
             width: 205px;
-            height: 24px;
+            height: 27px;
             text-align: right;
         }
         .auto-style25 {
@@ -98,11 +94,11 @@
         }
         .auto-style28 {
             width: 273px;
-            height: 27px;
+            height: 25px;
         }
         .auto-style29 {
             width: 273px;
-            height: 24px;
+            height: 27px;
         }
     </style>
 </head>
@@ -143,7 +139,7 @@
                     <asp:Label ID="Label6" runat="server" Font-Bold="True" Font-Size="20px" ForeColor="Black" Text="이름"></asp:Label>
                 </td>
                 <td class="auto-style27">
-                    <asp:TextBox runat="server" Width="255px" OnTextChanged="Unnamed1_TextChanged" ID="Non_memberText"></asp:TextBox>
+                    <asp:TextBox ID="Non_memberName" runat="server" Width="255px" OnTextChanged="Non_memberResidentText_TextChanged"></asp:TextBox>
                 </td>
                 <td class="auto-style7" rowspan="2">
                     <asp:Button ID="Non_MemberLoginButton" runat="server" Height="36px" style="margin-left: 0px" Text="비회원 로그인" Width="112px" />
@@ -160,7 +156,7 @@
                     <asp:Label ID="주민등록번호" runat="server" Font-Bold="True" Font-Size="20px" ForeColor="Black">주민등록번호</asp:Label>
                 </td>
                 <td class="auto-style28">
-                    <asp:TextBox ID="Non_memberResidentText" runat="server" Width="255px"></asp:TextBox>
+                    <asp:TextBox ID="Non_memberResidentText" runat="server" Width="255px" OnTextChanged="Non_memberResidentText_TextChanged"></asp:TextBox>
                 </td>
             </tr>
             <tr>
