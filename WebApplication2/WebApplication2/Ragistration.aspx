@@ -38,10 +38,10 @@
         }
         .auto-style6 {
             height: 20px;
-            width: 175px;
+            width: 245px;
         }
         .auto-style7 {
-            width: 175px;
+            width: 245px;
             text-align: justify;
         }
         .auto-style8 {
@@ -53,7 +53,7 @@
             height: 36px;
         }
         .auto-style10 {
-            width: 175px;
+            width: 245px;
             height: 36px;
         }
         #Reset1 {
@@ -64,7 +64,7 @@
             height: 19px;
         }
         .auto-style13 {
-            width: 175px;
+            width: 245px;
             height: 19px;
         }
         .auto-style14 {
@@ -79,7 +79,7 @@
             height: 38px;
         }
         .auto-style17 {
-            width: 175px;
+            width: 245px;
             text-align: center;
             height: 38px;
         }
@@ -108,7 +108,20 @@
             height: 19px;
             width: 74px;
         }
-    </style>
+        .auto-style25 {
+            width: 433px;
+            text-align: right;
+            height: 41px;
+        }
+        .auto-style26 {
+            width: 245px;
+            text-align: left;
+            height: 41px;
+        }
+        .auto-style27 {
+            height: 41px;
+        }
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -168,58 +181,26 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style5">
-                    <asp:Label ID="Label2" runat="server" Text="생년월일:"></asp:Label>
+                <td class="auto-style25">
+                    <asp:Label ID="Label2" runat="server">주민등록번호:</asp:Label>
                 </td>
-                <td class="auto-style7">
-                    <asp:DropDownList ID="YearList" runat="server" Height="23px" Width="58px">
-                        <asp:ListItem>1990</asp:ListItem>
-                        <asp:ListItem Value="1991"></asp:ListItem>
-                        <asp:ListItem Value="199">1992</asp:ListItem>
-                        <asp:ListItem>1993</asp:ListItem>
-                        <asp:ListItem>1994</asp:ListItem>
-                        <asp:ListItem>1995</asp:ListItem>
-                        <asp:ListItem>1996</asp:ListItem>
-                        <asp:ListItem>1997</asp:ListItem>
-                        <asp:ListItem>1998</asp:ListItem>
-                    </asp:DropDownList>
-&nbsp;&nbsp;
-                    <asp:DropDownList ID="MonthList" runat="server" Height="23px">
-                        <asp:ListItem Value="1"></asp:ListItem>
-                        <asp:ListItem>2</asp:ListItem>
-                        <asp:ListItem>3</asp:ListItem>
-                        <asp:ListItem>4</asp:ListItem>
-                        <asp:ListItem>5</asp:ListItem>
-                        <asp:ListItem>6</asp:ListItem>
-                        <asp:ListItem>7</asp:ListItem>
-                        <asp:ListItem>8</asp:ListItem>
-                        <asp:ListItem>9</asp:ListItem>
-                        <asp:ListItem>10</asp:ListItem>
-                        <asp:ListItem>11</asp:ListItem>
-                        <asp:ListItem>12</asp:ListItem>
-                    </asp:DropDownList>
-&nbsp;
-                    <asp:DropDownList ID="DateList" runat="server" Height="23px">
-                        <asp:ListItem Value="1"></asp:ListItem>
-                        <asp:ListItem>2</asp:ListItem>
-                        <asp:ListItem>3</asp:ListItem>
-                        <asp:ListItem>4</asp:ListItem>
-                        <asp:ListItem>5</asp:ListItem>
-                        <asp:ListItem>6</asp:ListItem>
-                        <asp:ListItem>7</asp:ListItem>
-                        <asp:ListItem>8</asp:ListItem>
-                        <asp:ListItem>9</asp:ListItem>
-                        <asp:ListItem>10</asp:ListItem>
-                        <asp:ListItem>11</asp:ListItem>
-                        <asp:ListItem>12</asp:ListItem>
-                        <asp:ListItem>13</asp:ListItem>
-                        <asp:ListItem>14</asp:ListItem>
-                        <asp:ListItem>15</asp:ListItem>
-                        <asp:ListItem>16</asp:ListItem>
-                    </asp:DropDownList>
+                <td class="auto-style26">
+                    <asp:TextBox ID="ResidentNumberText" runat="server" Height="23px" TextMode="Password" Width="180px"></asp:TextBox>
                 </td>
-                <td class="auto-style22">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style27" colspan="2">
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="ResidentNumberText" ErrorMessage="주민등록번호 형식에 맞도록 입력해주세요" ForeColor="Red" ValidationExpression="(0( \d|\d ))?\d\d \d\d(\d \d| \d\d )\d\d"></asp:RegularExpressionValidator>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style25">
+                    <asp:Label ID="Label4" runat="server" Text="연락처:"></asp:Label>
+                </td>
+                <td class="auto-style26">
+                    <asp:TextBox ID="PhoneNumberText" runat="server" Height="23px" TextMode="Password" Width="180px"></asp:TextBox>
+                </td>
+                <td class="auto-style27" colspan="2">
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="PhoneNumberText" ErrorMessage="휴대폰번호 형식에 맞도록 입력해주세요" ForeColor="Red" ValidationExpression="var regExp = /^\d{3}-\d{3,4}-\d{4}$/;"></asp:RegularExpressionValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style5">

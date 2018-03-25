@@ -8,20 +8,101 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 1255px;
+            width: 1376px;
+            height: 396px;
         }
         .auto-style2 {
             height: 99px;
         }
         .auto-style6 {
-            width: 570px;
-            text-align: right;
+            text-align: center;
         }
         .auto-style7 {
             width: 418px;
         }
         .auto-style8 {
-            width: 349px;
+            width: 228px;
+        }
+        .auto-style9 {
+            width: 252px;
+            text-align: right;
+            height: 27px;
+        }
+        .auto-style10 {
+            width: 228px;
+            height: 27px;
+        }
+        .auto-style11 {
+            width: 252px;
+            text-align: right;
+            height: 43px;
+        }
+        .auto-style12 {
+            height: 43px;
+            text-align: center;
+        }
+        .auto-style13 {
+            width: 418px;
+            height: 43px;
+        }
+        .auto-style14 {
+            width: 171px;
+        }
+        .auto-style15 {
+            width: 171px;
+            height: 43px;
+        }
+        .auto-style16 {
+            width: 252px;
+            text-align: right;
+        }
+        .auto-style17 {
+            width: 252px;
+            text-align: center;
+            height: 24px;
+        }
+        .auto-style19 {
+            width: 228px;
+            height: 24px;
+        }
+        .auto-style20 {
+            width: 171px;
+            height: 24px;
+        }
+        .auto-style21 {
+            width: 418px;
+            height: 24px;
+        }
+        .auto-style22 {
+            text-align: center;
+        }
+        .auto-style23 {
+            width: 205px;
+            height: 27px;
+            text-align: right;
+        }
+        .auto-style24 {
+            width: 205px;
+            height: 24px;
+            text-align: right;
+        }
+        .auto-style25 {
+            width: 205px;
+            height: 43px;
+        }
+        .auto-style26 {
+            text-align: right;
+        }
+        .auto-style27 {
+            width: 273px;
+        }
+        .auto-style28 {
+            width: 273px;
+            height: 27px;
+        }
+        .auto-style29 {
+            width: 273px;
+            height: 24px;
         }
     </style>
 </head>
@@ -32,42 +113,77 @@
     </div>
         <table class="auto-style1">
             <tr>
-                <td class="auto-style2" colspan="3" style="text-align: center">
-                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="39px" ForeColor="#003399" Text="로그인"></asp:Label>
+                <td class="auto-style2" colspan="6" style="text-align: center">
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="39px" ForeColor="Black" Text="로그인"></asp:Label>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style6">
-                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="20px" ForeColor="#0000CC" Text="E-mail"></asp:Label>
+                <td class="auto-style6" colspan="2">
+                    <br />
+                    <asp:Label ID="Label4" runat="server" Text="회원"></asp:Label>
+                    <br />
+                </td>
+                <td class="auto-style14">
+                    &nbsp;</td>
+                <td class="auto-style22" colspan="3">
+                    <asp:Label ID="Label5" runat="server" Text="비회원"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style16">
+                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="20px" ForeColor="Black" Text="E-mail"></asp:Label>
                 </td>
                 <td class="auto-style8">
                     <asp:TextBox ID="TextBox1" runat="server" Width="255px"></asp:TextBox>
                 </td>
+                <td class="auto-style14" rowspan="2">
+                    <asp:Button ID="LoginButton" runat="server" BackColor="White" Font-Bold="True" ForeColor="Black" Height="43px" Text="로그인" Width="73px" />
+                </td>
+                <td class="auto-style26">
+                    <asp:Label ID="Label6" runat="server" Font-Bold="True" Font-Size="20px" ForeColor="Black" Text="이름"></asp:Label>
+                </td>
+                <td class="auto-style27">
+                    <asp:TextBox runat="server" Width="255px" OnTextChanged="Unnamed1_TextChanged" ID="Non_memberText"></asp:TextBox>
+                </td>
                 <td class="auto-style7" rowspan="2">
-                    <asp:Button ID="LoginButton" runat="server" BackColor="#0000CC" Font-Bold="True" ForeColor="White" Height="43px" Text="로그인" Width="73px" />
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style6">
-                    <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="20px" ForeColor="#0000CC" Text="Password"></asp:Label>
-                </td>
-                <td class="auto-style8">
-                    <asp:TextBox ID="TextBox2" runat="server" Width="255px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style8">&nbsp;</td>
-                <td class="auto-style7">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style6">&nbsp;</td>
-                <td class="auto-style8">
-                    <asp:Button ID="RagistrationButton" runat="server" Height="36px" style="margin-left: 0px" Text="회원가입" Width="115px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Button ID="Non_MemberLoginButton" runat="server" Height="36px" style="margin-left: 0px" Text="비회원 로그인" Width="112px" />
                 </td>
-                <td class="auto-style7">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style9">
+                    <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Size="20px" ForeColor="Black" Text="Password"></asp:Label>
+                </td>
+                <td class="auto-style10">
+                    <asp:TextBox ID="TextBox2" runat="server" Width="255px"></asp:TextBox>
+                </td>
+                <td class="auto-style23">
+                    <asp:Label ID="주민등록번호" runat="server" Font-Bold="True" Font-Size="20px" ForeColor="Black">주민등록번호</asp:Label>
+                </td>
+                <td class="auto-style28">
+                    <asp:TextBox ID="Non_memberResidentText" runat="server" Width="255px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style17"></td>
+                <td class="auto-style19"></td>
+                <td class="auto-style20"></td>
+                <td class="auto-style24">
+                    <asp:Label ID="주민등록번호0" runat="server" Font-Bold="True" Font-Size="20px" ForeColor="Black">핸드폰 번호</asp:Label>
+                </td>
+                <td class="auto-style29">
+                    <asp:TextBox ID="Non_memberPhNText" runat="server" Width="255px"></asp:TextBox>
+                </td>
+                <td class="auto-style21"></td>
+            </tr>
+            <tr>
+                <td class="auto-style11"></td>
+                <td class="auto-style12" colspan="2">
+                    <asp:Button ID="RagistrationButton" runat="server" Height="36px" style="margin-left: 0px" Text="회원가입" Width="115px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                <td class="auto-style25">
+                    &nbsp;</td>
+                <td class="auto-style13" colspan="2">&nbsp;</td>
             </tr>
         </table>
     </form>

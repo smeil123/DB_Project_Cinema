@@ -51,7 +51,7 @@
         <table class="auto-style1">
             <tr>
                 <td colspan="5" style="text-align: center">
-                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Felix Titling" Font-Overline="False" Font-Size="40px" ForeColor="#003399" Text="영화 예매 페이지"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Felix Titling" Font-Overline="False" Font-Size="40px" ForeColor="Black" Text="영화 예매 페이지"></asp:Label>
                 </td>
             </tr>
             <tr>
@@ -66,7 +66,7 @@
                     <asp:TextBox ID="MoiveSearchText" runat="server" Height="38px" style="text-align: left" Width="813px"></asp:TextBox>
                 </td>
                 <td class="auto-style10">
-                    <asp:Button ID="SearchButton" runat="server" BackColor="#0066FF" ForeColor="White" Height="45px" Text="검색" Width="92px" />
+                    <asp:Button ID="SearchButton" runat="server" BackColor="White" ForeColor="Black" Height="45px" Text="검색" Width="92px" />
                 </td>
             </tr>
             <tr>
@@ -78,7 +78,7 @@
             </tr>
             <tr>
                 <td class="auto-style9">
-                    <asp:Label ID="Label2" runat="server" Font-Size="30px" Font-Strikeout="False" ForeColor="#003399" Text="상영중인 영화"></asp:Label>
+                    <asp:Label ID="Label2" runat="server" Font-Size="30px" Font-Strikeout="False" ForeColor="Black" Text="상영중인 영화"></asp:Label>
                 </td>
                 <td class="auto-style11">&nbsp;</td>
                 <td class="auto-style10">&nbsp;</td>
