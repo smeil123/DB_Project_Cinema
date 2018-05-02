@@ -66,7 +66,7 @@
     <Content Include="MovieDetail.aspx" />
     <Content Include="Payment.aspx" />
     <Content Include="Ragistration.aspx" />
-    <Content Include="ShowTimes.aspx" />
+    <Content Include="ChooseSeat.aspx" />
     <Content Include="Styles\main.css" />
     <Content Include="Ticketing.aspx" />
     <Content Include="Web.config" />
@@ -115,12 +115,12 @@
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
-    <Compile Include="ShowTimes.aspx.cs">
-      <DependentUpon>ShowTimes.aspx</DependentUpon>
+    <Compile Include="ChooseSeat.aspx.cs">
+      <DependentUpon>ChooseSeat.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ShowTimes.aspx.designer.cs">
-      <DependentUpon>ShowTimes.aspx</DependentUpon>
+    <Compile Include="ChooseSeat.aspx.designer.cs">
+      <DependentUpon>ChooseSeat.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ticketing.aspx.cs">
       <DependentUpon>Ticketing.aspx</DependentUpon>

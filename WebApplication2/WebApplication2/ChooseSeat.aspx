@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ShowTimes.aspx.cs" Inherits="WebApplication2.ShowTimes" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ChooseSeat.aspx.cs" Inherits="WebApplication2.ShowTimes" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
     ShowTimes
 </asp:Content>
