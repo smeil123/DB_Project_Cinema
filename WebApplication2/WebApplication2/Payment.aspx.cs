@@ -13,5 +13,15 @@ namespace WebApplication2
         {
 
         }
+
+        protected void TextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
