@@ -23,7 +23,7 @@
             <div class="menu">
                 <ul>
                     <li class="navigation_first_item"><a href="Home.aspx">Home</a></li>
-                    <li><a href="Ticket.aspx">예매하기</a></li>
+                    <li><a href="Ticketing.aspx">예매하기</a></li>
                     <li><a href="ShowTimes.aspx">ShowTimes</a></li>
                     <li><a href="Login.aspx">Login</a></li>
                     <li><a href="Ragistration.aspx">회원가입</a></li>

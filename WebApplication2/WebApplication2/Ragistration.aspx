@@ -68,7 +68,7 @@
                     <asp:TextBox ID="ResidentNumberText" runat="server" Height="23px" TextMode="Password" Width="180px"></asp:TextBox>
                 </td>
                 <td class="validatortext" colspan="2">
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="ResidentNumberText" ErrorMessage="주민등록번호 형식에 맞도록 입력해주세요" ForeColor="Red" ValidationExpression="(0( \d|\d ))?\d\d \d\d(\d \d| \d\d )\d\d"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="ResidentNumberText" ErrorMessage="주민등록번호 '-'를 제외하고 13자를 입력해주세요" ForeColor="Red" ValidationExpression="(0( \d|\d ))?\d\d \d\d(\d \d| \d\d )\d\d"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
@@ -78,7 +78,7 @@
                     <asp:TextBox ID="PhoneNumberText" runat="server" Height="23px" TextMode="Password" Width="180px"></asp:TextBox>
                 </td>
                 <td class="validatortext" colspan="2">
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="PhoneNumberText" ErrorMessage="휴대폰번호 형식에 맞도록 입력해주세요" ForeColor="Red" ValidationExpression="var regExp = /^\d{3}-\d{3,4}-\d{4}$/;"></asp:RegularExpressionValidator>
+                    <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="PhoneNumberText" ErrorMessage="휴대폰번호 '-'를 제외하고 11자를 입력해주세요" ForeColor="Red" ValidationExpression="var regExp = /^\d{3}-\d{3,4}-\d{4}$/;"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>
