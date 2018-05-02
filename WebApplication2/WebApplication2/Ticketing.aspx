@@ -18,6 +18,7 @@
         .auto-style4 {
             text-align: center;
             width: 197px;
+            height: 16px;
         }
         .auto-style5 {
             width: 197px;
@@ -28,9 +29,14 @@
         .auto-style9 {
             text-align: center;
             width: 266px;
+            height: 16px;
         }
         .auto-style10 {
             width: 266px;
+        }
+        .auto-style11 {
+            text-align: center;
+            height: 16px;
         }
     </style>
     <table class="auto-style1">
@@ -48,15 +54,15 @@
             <td class="auto-style9">
                 <asp:Label ID="Label2" runat="server" Text="상영일"></asp:Label>
             </td>
-            <td class="auto-style2">
+            <td class="auto-style11">
                 <asp:Label ID="Label3" runat="server" Text="상영관"></asp:Label>
             </td>
-            <td class="auto-style2">
+            <td class="auto-style11">
                 <asp:Label ID="Label4" runat="server" Text="상영시작시간"></asp:Label>
             </td>
         </tr>
         <tr>
-            <td class="auto-style5" rowspan="5">영화 이미지</td>
+            <td class="auto-style5">영화명</td>
             <td class="auto-style10" rowspan="14">
                 <asp:Calendar ID="Calendar1" runat="server" Height="251px" Width="265px"></asp:Calendar>
             </td>
@@ -69,43 +75,51 @@
             <td class="auto-style8"></td>
         </tr>
         <tr>
+            <td class="auto-style5">영화명</td>
             <td class="auto-style8"></td>
         </tr>
         <tr>
+            <td class="auto-style5">영화명</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
+            <td class="auto-style5">영화명</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
+            <td class="auto-style5">영화명</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td rowspan="5" class="auto-style5">영화 이미지</td>
+            <td class="auto-style5">영화명</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
+            <td class="auto-style5">영화명</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style8"></td>
+            <td class="auto-style5">영화명</td>
+            <td class="auto-style8">&nbsp;</td>
         </tr>
         <tr>
+            <td class="auto-style5">영화명</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
+            <td class="auto-style5">영화명</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style5">&nbsp;</td>
+            <td class="auto-style5">영화명</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style5">&nbsp;</td>
+            <td class="auto-style5">영화명</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style5">&nbsp;</td>
+            <td class="auto-style5">영화명</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
