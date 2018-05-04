@@ -70,6 +70,7 @@
     <Content Include="Styles\main.css" />
     <Content Include="Ticketing.aspx" />
     <Content Include="Web.config" />
+    <Content Include="LoginCustomer.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Home.aspx.cs">
@@ -128,6 +129,13 @@
     </Compile>
     <Compile Include="Ticketing.aspx.designer.cs">
       <DependentUpon>Ticketing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginCustomer.aspx.cs">
+      <DependentUpon>LoginCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginCustomer.aspx.designer.cs">
+      <DependentUpon>LoginCustomer.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

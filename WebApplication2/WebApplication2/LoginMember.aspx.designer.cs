@@ -22,22 +22,13 @@ namespace WebApplication2 {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// Label4 컨트롤입니다.
+        /// Button11 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
-        
-        /// <summary>
-        /// Label5 컨트롤입니다.
-        /// </summary>
-        /// <remarks>
-        /// 자동 생성 필드입니다.
-        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.Button Button11;
         
         /// <summary>
         /// E_Label 컨트롤입니다.
@@ -67,33 +58,6 @@ namespace WebApplication2 {
         protected global::System.Web.UI.WebControls.Button LoginButton;
         
         /// <summary>
-        /// N_Label 컨트롤입니다.
-        /// </summary>
-        /// <remarks>
-        /// 자동 생성 필드입니다.
-        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label N_Label;
-        
-        /// <summary>
-        /// Non_memberName 컨트롤입니다.
-        /// </summary>
-        /// <remarks>
-        /// 자동 생성 필드입니다.
-        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Non_memberName;
-        
-        /// <summary>
-        /// Button2 컨트롤입니다.
-        /// </summary>
-        /// <remarks>
-        /// 자동 생성 필드입니다.
-        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
-        
-        /// <summary>
         /// P_Label 컨트롤입니다.
         /// </summary>
         /// <remarks>
@@ -112,48 +76,39 @@ namespace WebApplication2 {
         protected global::System.Web.UI.WebControls.TextBox PasswordTextbox;
         
         /// <summary>
-        /// Sid_Label 컨트롤입니다.
+        /// Button13 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Sid_Label;
+        protected global::System.Web.UI.WebControls.Button Button13;
         
         /// <summary>
-        /// Non_memberResidentText 컨트롤입니다.
+        /// Button12 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Non_memberResidentText;
+        protected global::System.Web.UI.WebControls.Button Button12;
         
         /// <summary>
-        /// Phone_Label 컨트롤입니다.
+        /// Label6 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Phone_Label;
+        protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// Non_memberPhNText 컨트롤입니다.
+        /// Button14 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Non_memberPhNText;
-        
-        /// <summary>
-        /// JoinUsButton 컨트롤입니다.
-        /// </summary>
-        /// <remarks>
-        /// 자동 생성 필드입니다.
-        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button JoinUsButton;
+        protected global::System.Web.UI.WebControls.Button Button14;
     }
 }
