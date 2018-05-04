@@ -62,7 +62,7 @@
     <Content Include="Cinema_DB_Pro.csproj" />
     <Content Include="Cinema_DB_Pro.csproj.user" />
     <Content Include="Home.aspx" />
-    <Content Include="Login.aspx" />
+    <Content Include="LoginMember.aspx" />
     <Content Include="MovieDetail.aspx" />
     <Content Include="Payment.aspx" />
     <Content Include="Ragistration.aspx" />
@@ -80,12 +80,12 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="LoginMember.aspx.cs">
+      <DependentUpon>LoginMember.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="LoginMember.aspx.designer.cs">
+      <DependentUpon>LoginMember.aspx</DependentUpon>
     </Compile>
     <Compile Include="MovieDetail.aspx.cs">
       <DependentUpon>MovieDetail.aspx</DependentUpon>

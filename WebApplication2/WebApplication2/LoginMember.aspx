@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication2.Login1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="LoginMember.aspx.cs" Inherits="WebApplication2.Login1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
     Login
@@ -87,10 +87,10 @@
             <tr>
                 <td class="auto-style30"></td>
                 <td class="auto-style29">
-                    asp:Button ID="Button10" runat="server" CssClass="auto-style28" Height="40px" Text="회원" Width="95px" />
+                    <asp:Button ID="Button10" runat="server" CssClass="auto-style28" Height="40px" Text="회원" Width="95px" PostBackUrl="~/LoginMember.aspx" />
                 </td>
                 <td class="auto-style26">
-                    <asp:Button ID="Button11" runat="server" Height="40px" Text="비회원" Width="95px" />
+                    <asp:Button ID="Button11" runat="server" Height="40px" Text="비회원" Width="95px" PostBackUrl="~/LoginCustomer.aspx" />
                 </td>
                 <td class="auto-style31"></td>
                 <td class="auto-style32"></td>
