@@ -44,6 +44,10 @@
             width: 43%;
             text-align: right;
         }
+        .auto-style8 {
+            height: 31px;
+            text-align: center;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
@@ -53,7 +57,7 @@
     <table class="auto-style1" align="center">
         <tr>
             <td class="auto-style2">
-                <asp:Label ID="Label4" runat="server" Text="회원" Font-Bold="True" Font-Size="30px"></asp:Label>
+                <asp:Label ID="Label4" runat="server" Text="로그인" Font-Bold="True" Font-Size="30px"></asp:Label>
             </td>
             <td class="auto-style3"></td>
             <td class="auto-style5">
@@ -67,14 +71,14 @@
                 <asp:TextBox ID="EmailTextbox" runat="server" Width="255px" Style="text-align: right" TextMode="Email"></asp:TextBox>
             </td>
             <td class="auto-style3" rowspan="2">
-                <asp:Button ID="LoginButton" runat="server" CssClass="button" Text="로그인" Height="30px" />
+                <asp:Button ID="LoginButton" runat="server" CssClass="button" Text="로그인" Height="52px" />
             </td>
             <td class="auto-style7">
                 <asp:Label ID="N_Label" runat="server" Font-Bold="True" Font-Size="17px" ForeColor="Black" Text="이름"></asp:Label>
                 <asp:TextBox ID="Non_memberName" runat="server" Width="255px"></asp:TextBox>
             </td>
             <td class="auto-style6" rowspan="2">
-                <asp:Button ID="Button2" runat="server" CssClass="button" Text="비회원예매" Font-Size="12px" Font-Strikeout="False" Style="margin-left: 0px" Height="30px" />
+                <asp:Button ID="Button2" runat="server" CssClass="button" Text="비회원예매" Font-Size="12px" Font-Strikeout="False" Style="margin-left: 0px" Height="52px" />
             </td>
         </tr>
         <tr>
@@ -97,10 +101,9 @@
             <td class="auto-style6"></td>
         </tr>
         <tr>
-            <td class="auto-style2">
+            <td class="auto-style8" colspan="2">
                 <asp:Button ID="JoinUsButton" runat="server" Font-Bold="True" CssClass="button" Text="회원가입Go~" Font-Size="20px" Height="37px" Width="307px" />
             </td>
-            <td class="auto-style3">&nbsp;</td>
             <td class="auto-style5">&nbsp;</td>
             <td class="auto-style6">&nbsp;</td>
         </tr>

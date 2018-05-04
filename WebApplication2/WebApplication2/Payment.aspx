@@ -139,7 +139,10 @@
                         <td class="auto-style16">카드종류:</td>
                         <td class="auto-style18">
                             <asp:DropDownList ID="DropDownList2" runat="server">
-                                <asp:ListItem>카드를 선택하세요</asp:ListItem>
+                                <asp:ListItem>SKT</asp:ListItem>
+                                <asp:ListItem>KT</asp:ListItem>
+                                <asp:ListItem>LGU+</asp:ListItem>
+                                <asp:ListItem>알뜰폰</asp:ListItem>
                             </asp:DropDownList>
                         </td>
                         <td class="auto-style24" colspan="2">

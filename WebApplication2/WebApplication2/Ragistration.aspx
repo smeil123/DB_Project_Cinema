@@ -28,7 +28,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="text">E-mail:</td>
+                <td class="text">ID:</td>
                 <td class="auto-style7">
                     <asp:TextBox ID="TextBoxEmail" runat="server" Height="23px" Width="180px"></asp:TextBox>
                 </td>
@@ -95,14 +95,15 @@
             <tr>
                 <td class="auto-style16"></td>
                 <td class="auto-style17">
-                    <asp:Button ID="Button_Submit" runat="server" Height="40px" style="text-align: center" Text="가입하기" Width="100px" CssClass="button" />
-                </td>
+                    &nbsp;</td>
                 <td class="auto-style23">&nbsp;</td>
                 <td class="auto-style18"></td>
             </tr>
             <tr>
                 <td class="auto-style12"></td>
-                <td class="auto-style13"></td>
+                <td class="auto-style13">
+                    <asp:Button ID="Button_Submit" runat="server" Height="40px" style="text-align: center" Text="가입하기" Width="100px" CssClass="button" />
+                </td>
                 <td class="auto-style24"></td>
                 <td class="auto-style14"></td>
             </tr>
