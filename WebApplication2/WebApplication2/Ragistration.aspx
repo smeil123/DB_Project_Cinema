@@ -9,6 +9,9 @@
         .auto-style1 {
             width: 100%;
         }
+        .auto-style2 {
+            text-align: left;
+        }
         </style>
      <table align="center" class="auto-style1">
             <tr>
@@ -32,13 +35,11 @@
                 <td class="auto-style7">
                     <asp:TextBox ID="TextBoxEmail" runat="server" Height="23px" Width="180px"></asp:TextBox>
                 </td>
-                <td class="auto-style20">
+                <td class="auto-style2">
                     <asp:Button ID="DoubleCheckButton" runat="server" Height="40px" Text="중복확인" CssClass="button" Width="100px" />
                 </td>
                 <td class="validatortext">
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBoxEmail" ErrorMessage="이메일을 입력해주세요." ForeColor="Red"></asp:RequiredFieldValidator>
                     <br />
-                    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBoxEmail" ErrorMessage="이메일 형식에 맞도록 입력해주세요." ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                 </td>
             </tr>
             <tr>

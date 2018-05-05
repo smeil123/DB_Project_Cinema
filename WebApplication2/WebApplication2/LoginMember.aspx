@@ -132,7 +132,7 @@
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>
-                    <asp:Label ID="Label6" runat="server" CssClass="auto-style33" ForeColor="#0000CC" Text="회원이 아니신가요?"></asp:Label>
+                    <asp:Label ID="Label6" runat="server" CssClass="auto-style33" ForeColor="#0000CC" Text="회원이 아니신가요?" PostBackUrl="~/Registration.aspx"></asp:Label>
                     <asp:Button ID="Button14" runat="server" Text="회원가입" />
                 </td>
                 <td>&nbsp;</td>
