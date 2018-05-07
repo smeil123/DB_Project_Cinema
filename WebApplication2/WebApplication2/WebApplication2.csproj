@@ -65,6 +65,8 @@
     <Content Include="LoginMember.aspx" />
     <Content Include="MovieDetail.aspx" />
     <Content Include="MyPageChangeInfo.aspx" />
+    <Content Include="MyPageCheckResv.aspx" />
+    <Content Include="MyPageMyPoint.aspx" />
     <Content Include="Payment.aspx" />
     <Content Include="Ragistration.aspx" />
     <Content Include="ChooseSeat.aspx" />
@@ -73,7 +75,9 @@
     <Content Include="Web.config" />
     <Content Include="LoginCustomer.aspx" />
     <Content Include="MyPageChangePwd.aspx" />
-    <Content Include="MyPageForm.aspx" />
+    <Content Include="MyPageDiscount.aspx" />
+    <Content Include="MyPageQuitMem.aspx" />
+    <Content Include="WebForm6.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Home.aspx.cs">
@@ -103,6 +107,20 @@
     </Compile>
     <Compile Include="MyPageChangeInfo.aspx.designer.cs">
       <DependentUpon>MyPageChangeInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyPageCheckResv.aspx.cs">
+      <DependentUpon>MyPageCheckResv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyPageCheckResv.aspx.designer.cs">
+      <DependentUpon>MyPageCheckResv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyPageMyPoint.aspx.cs">
+      <DependentUpon>MyPageMyPoint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyPageMyPoint.aspx.designer.cs">
+      <DependentUpon>MyPageMyPoint.aspx</DependentUpon>
     </Compile>
     <Compile Include="Payment.aspx.cs">
       <DependentUpon>Payment.aspx</DependentUpon>
@@ -154,12 +172,26 @@
     <Compile Include="MyPageChangePwd.aspx.designer.cs">
       <DependentUpon>MyPageChangePwd.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MyPageForm.aspx.cs">
-      <DependentUpon>MyPageForm.aspx</DependentUpon>
+    <Compile Include="MyPageDiscount.aspx.cs">
+      <DependentUpon>MyPageDiscount.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MyPageForm.aspx.designer.cs">
-      <DependentUpon>MyPageForm.aspx</DependentUpon>
+    <Compile Include="MyPageDiscount.aspx.designer.cs">
+      <DependentUpon>MyPageDiscount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyPageQuitMem.aspx.cs">
+      <DependentUpon>MyPageQuitMem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyPageQuitMem.aspx.designer.cs">
+      <DependentUpon>MyPageQuitMem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm6.aspx.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm6.aspx.designer.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
