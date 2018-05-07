@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MyPageQuitMem.aspx.cs" Inherits="WebApplication2.WebForm5" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    MyPage 회원 탈퇴하기
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">

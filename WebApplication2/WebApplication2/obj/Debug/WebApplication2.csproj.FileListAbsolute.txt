@@ -31,3 +31,10 @@ C:\Users\ynkim\DB_Project_Cinema\WebApplication2\WebApplication2\obj\Debug\WebAp
 C:\Users\ynkim\DB_Project_Cinema\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache
 C:\Users\ynkim\DB_Project_Cinema\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Users\ynkim\DB_Project_Cinema\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\dmswl\Desktop\4-1\디비설\github\DB_Project_Cinema\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\dmswl\Desktop\4-1\디비설\github\DB_Project_Cinema\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\dmswl\Desktop\4-1\디비설\github\DB_Project_Cinema\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\dmswl\Desktop\4-1\디비설\github\DB_Project_Cinema\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\dmswl\Desktop\4-1\디비설\github\DB_Project_Cinema\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache
+C:\Users\dmswl\Desktop\4-1\디비설\github\DB_Project_Cinema\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\dmswl\Desktop\4-1\디비설\github\DB_Project_Cinema\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

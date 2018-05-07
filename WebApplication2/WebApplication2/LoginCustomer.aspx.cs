@@ -13,5 +13,10 @@ namespace WebApplication2
         {
 
         }
+
+        protected void Non_memberPhNText0_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

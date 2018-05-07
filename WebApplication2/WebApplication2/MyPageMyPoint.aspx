@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MyPageMyPoint.aspx.cs" Inherits="WebApplication2.MyPageMyPoint" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    MyPage 포인트 조회
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
@@ -29,7 +30,8 @@
         .auto-style101 {
             width: 145px;
             height: 55px;
-        }
+        text-align: left;
+    }
         .auto-style54 {
             width: 19px;
         }
@@ -44,7 +46,6 @@
             font-size: 18px;
             font-weight: bold;
             text-align: left;
-            width: 144px;
             height: 22px;
         }
         .auto-style99 {
@@ -96,17 +97,22 @@
             <tr>
                 <td class="auto-style54" rowspan="5">&nbsp;</td>
                 <td class="auto-style93"></td>
-                <td class="auto-style43" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style101"></td>
+                <td class="auto-style43" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">
+                    <asp:Label ID="Label3" runat="server" Text="적립포인트 : "></asp:Label>
+                </td>
+                <td class="auto-style101">
+                    <asp:Label ID="SavingPoint" runat="server" Font-Size="20px" Text="0"></asp:Label>
+                    &nbsp;<asp:Label ID="Label4" runat="server" Font-Size="20px" Text="Points"></asp:Label>
+                </td>
                 <td class="auto-style101">&nbsp;</td>
                 <td class="auto-style101"></td>
                 <td class="auto-style101"></td>
             </tr>
             <tr>
                 <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style101">&nbsp;</td>
-                <td class="auto-style101">&nbsp;</td>
+                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;" colspan="3">
+                    <asp:Label ID="Label5" runat="server" Font-Size="13px" ForeColor="#2070A6" Text="* 적립포인트는 1000Point이상부터 사용할 수 있습니다."></asp:Label>
+                </td>
                 <td class="auto-style101"></td>
                 <td class="auto-style101"></td>
             </tr>

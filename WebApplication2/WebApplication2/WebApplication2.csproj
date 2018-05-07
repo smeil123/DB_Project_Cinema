@@ -61,9 +61,12 @@
   <ItemGroup>
     <Content Include="Cinema_DB_Pro.csproj" />
     <Content Include="Cinema_DB_Pro.csproj.user" />
+    <Content Include="FindID.aspx" />
+    <Content Include="FindPW.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="LoginMember.aspx" />
     <Content Include="MovieDetail.aspx" />
+    <Content Include="MyPage.aspx" />
     <Content Include="MyPageChangeInfo.aspx" />
     <Content Include="MyPageCheckResv.aspx" />
     <Content Include="MyPageMyPoint.aspx" />
@@ -77,9 +80,22 @@
     <Content Include="MyPageChangePwd.aspx" />
     <Content Include="MyPageDiscount.aspx" />
     <Content Include="MyPageQuitMem.aspx" />
-    <Content Include="WebForm6.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FindID.aspx.cs">
+      <DependentUpon>FindID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FindID.aspx.designer.cs">
+      <DependentUpon>FindID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FindPW.aspx.cs">
+      <DependentUpon>FindPW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FindPW.aspx.designer.cs">
+      <DependentUpon>FindPW.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -100,6 +116,13 @@
     </Compile>
     <Compile Include="MovieDetail.aspx.designer.cs">
       <DependentUpon>MovieDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyPage.aspx.cs">
+      <DependentUpon>MyPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyPage.aspx.designer.cs">
+      <DependentUpon>MyPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyPageChangeInfo.aspx.cs">
       <DependentUpon>MyPageChangeInfo.aspx</DependentUpon>
@@ -185,13 +208,6 @@
     </Compile>
     <Compile Include="MyPageQuitMem.aspx.designer.cs">
       <DependentUpon>MyPageQuitMem.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm6.aspx.cs">
-      <DependentUpon>WebForm6.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm6.aspx.designer.cs">
-      <DependentUpon>WebForm6.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -43,7 +43,7 @@
         <tr>
             <td colspan="4" style="text-align: center">
                 <div class="menutitle">
-                <asp:Label ID="Label6" runat="server" Font-Strikeout="False" Text="TICKET"></asp:Label>
+                <asp:Label ID="Label6" runat="server" Font-Strikeout="False" Text="TICKET" CssClass="menutitle"></asp:Label>
                     </div>
             </td>
         </tr>

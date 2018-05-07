@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MyPageChangePwd.aspx.cs" Inherits="WebApplication2.WebForm3" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    MyPage 비밀번호 변경
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
@@ -55,11 +56,19 @@
             width: 42px;
             height: 55px;
         }
+        .auto-style94 {
+            width: 42px;
+            height: 54px;
+        }
+        .auto-style95 {
+            width: 134px;
+            height: 54px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
     <div class="menutitle">
-    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="39px" Text="MyPage"></asp:Label>
+    <asp:Label ID="Label2" runat="server" Font-Bold="True" Text="MyPage" CssClass="menutitle"></asp:Label>
     <table class="auto-style1">
         <tr>
             <td class="auto-style79"></td>
@@ -98,7 +107,10 @@
             <td class="auto-style54" rowspan="5">&nbsp;</td>
             <td class="auto-style62"></td>
             <td class="auto-style43" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;" colspan="4" rowspan="4">
-                    <asp:ChangePassword ID="ChangePassword1" runat="server" ChangePasswordButtonText="비밀번호 변경" ChangePasswordTitleText="" ConfirmNewPasswordLabelText="Confirm New Password:" ConfirmPasswordCompareErrorMessage="" Height="180px" NewPasswordLabelText="New Password:" PasswordLabelText="Password:" Width="512px">
+                    <asp:ChangePassword ID="ChangePassword1" runat="server" ChangePasswordButtonText="비밀번호 변경" ChangePasswordTitleText="" ConfirmNewPasswordLabelText="Confirm New Password:" ConfirmPasswordCompareErrorMessage="" Height="180px" NewPasswordLabelText="New Password:" PasswordLabelText="Password:" Width="512px" OnChangedPassword="ChangePassword1_ChangedPassword">
+                        <CancelButtonStyle CssClass="button" Height="35px" Width="60px" />
+                        <ChangePasswordButtonStyle CssClass="button" Height="35px" Width="180px" />
+                        <ContinueButtonStyle CssClass="button" />
                     </asp:ChangePassword>
                 </td>
             <td class="auto-style91"></td>
@@ -108,8 +120,8 @@
             <td class="auto-style91"></td>
         </tr>
         <tr>
-            <td class="auto-style62"></td>
-            <td class="auto-style91"></td>
+            <td class="auto-style94"></td>
+            <td class="auto-style95"></td>
         </tr>
         <tr>
             <td class="auto-style62"></td>

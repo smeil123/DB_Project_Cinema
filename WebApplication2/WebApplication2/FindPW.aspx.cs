@@ -7,9 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication2
 {
-    public partial class MyPage : System.Web.UI.Page
+    public partial class FindPW : System.Web.UI.Page
     {
-       
-        
     }
 }

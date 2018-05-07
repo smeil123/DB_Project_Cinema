@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MyPageChangeInfo.aspx.cs" Inherits="WebApplication2.MyPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    MyPage 개인정보 수정
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
@@ -64,12 +65,12 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
     <div class="menutitle">
-        <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="39px" Text="MyPage"></asp:Label>
+        <asp:Label ID="Label2" runat="server" Font-Bold="True" Text="MyPage" CssClass="subtitle"></asp:Label>
         <table class="auto-style1">
             <tr>
                 <td class="auto-style79"></td>
                 <td class="auto-style57" rowspan="6">
-                    <asp:TreeView ID="TreeView2" runat="server" CssClass="auto-style2" BorderStyle="None" Font-Bold="False" Font-Overline="False" Font-Size="Large" ForeColor="#003300" Height="263px" ImageSet="Simple" Width="172px">
+                    <asp:TreeView ID="TreeView2" runat="server" CssClass="auto-style2" BorderStyle="None" Font-Bold="False" Font-Overline="False" Font-Size="Large" ForeColor="#003300" Height="263px" ImageSet="Simple" Width="172px" OnSelectedNodeChanged="TreeView2_SelectedNodeChanged">
                         <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
                         <Nodes>
                             <asp:TreeNode Text="회원정보" Value="회원정보">

@@ -46,7 +46,7 @@
         <tr>
             <td colspan="3" style="text-align: left">
                 <div class="menutitle">
-                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Style="text-align: left" Text="영화상세보기"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Style="text-align: left" Text="영화상세보기" CssClass="menutitle"></asp:Label>
                 </div>
             </td>
         </tr>

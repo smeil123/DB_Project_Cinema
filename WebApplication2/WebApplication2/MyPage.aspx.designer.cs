@@ -10,60 +10,69 @@
 namespace WebApplication2 {
     
     
-    public partial class MyPageMyPoint {
+    public partial class MyPage {
         
         /// <summary>
-        /// Label2 컨트롤입니다.
+        /// mypagelabel 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label mypagelabel;
         
         /// <summary>
-        /// TreeView2 컨트롤입니다.
+        /// TreeView20 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TreeView TreeView2;
+        protected global::System.Web.UI.WebControls.TreeView TreeView20;
         
         /// <summary>
-        /// Label3 컨트롤입니다.
+        /// Idlabel 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label Idlabel;
         
         /// <summary>
-        /// SavingPoint 컨트롤입니다.
+        /// Cust_ID 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label SavingPoint;
+        protected global::System.Web.UI.WebControls.Label Cust_ID;
         
         /// <summary>
-        /// Label4 컨트롤입니다.
+        /// pwlabel 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.Label pwlabel;
         
         /// <summary>
-        /// Label5 컨트롤입니다.
+        /// ConfirmPWText 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.TextBox ConfirmPWText;
+        
+        /// <summary>
+        /// ConfirmPWButton 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ConfirmPWButton;
     }
 }

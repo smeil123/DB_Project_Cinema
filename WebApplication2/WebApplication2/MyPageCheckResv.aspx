@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MyPageCheckResv.aspx.cs" Inherits="WebApplication2.MyPageCheckResv" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    MyPage 예매내역 확인
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">

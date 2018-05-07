@@ -1,8 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="LoginCustomer.aspx.cs" Inherits="WebApplication2.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="FindID.aspx.cs" Inherits="WebApplication2.FindPW" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    비밀번호 찾기
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+
     <style type="text/css">
+
 
 
         .auto-style9 {
@@ -41,45 +44,51 @@
         .auto-style16 {
             width: 77px;
         }
-        </style>
+        .auto-style33 {
+            width: 254px;
+            height: 45px;
+        }
+        .auto-style34 {
+            width: 115px;
+            height: 45px;
+        }
+        .auto-style35 {
+            width: 263px;
+            height: 45px;
+        }
+        .auto-style36 {
+            height: 45px;
+        }
+    </style>
+
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
     <div class="menutitle">
-        &nbsp;<asp:Label ID="Label1" runat="server" CssClass="menutitle" Font-Bold="True" ForeColor="Black" Text="비회원 로그인"></asp:Label>
+        &nbsp;<asp:Label ID="Label1" runat="server" CssClass="menutitle" Font-Bold="True" ForeColor="Black" Text="아이디 찾기"></asp:Label>
         <table class="auto-style9">
             <tr>
                 <td class="auto-style30"></td>
                 <td class="auto-style29">
-                    <asp:Button ID="Button10" runat="server" CssClass="button" Height="40px" Text="회원" Width="95px" PostBackUrl="~/LoginMember.aspx" />
+                    <asp:Button ID="Button10" runat="server" CssClass="button" Height="40px" Text="비밀번호 찾기" Width="111px" PostBackUrl="~/FindPW.aspx" />
                 </td>
                 <td class="auto-style26">
-                    <asp:Button ID="Button11" runat="server" Height="40px" Text="비회원" Width="95px" PostBackUrl="~/LoginCustomer.aspx" CssClass="button" />
+                    <asp:Button ID="Button11" runat="server" Height="40px" Text="아이디 찾기" Width="95px" PostBackUrl="~/FindID.aspx" CssClass="button" />
                 </td>
                 <td class="auto-style31"></td>
                 <td class="auto-style32"></td>
             </tr>
             <tr>
-                <td class="auto-style18">&nbsp;</td>
-                <td class="auto-style12">
-                    <asp:Label ID="N_Label" runat="server" Font-Bold="True" Font-Size="17px" ForeColor="Black" Text="이름"></asp:Label>
-                </td>
-                <td class="auto-style14">
-                    <asp:TextBox ID="Non_memberName" runat="server" Width="255px"></asp:TextBox>
-                </td>
-                <td class="auto-style16" rowspan="3">
-                    <asp:Button ID="Button2" runat="server" CssClass="button" Font-Size="12px" Font-Strikeout="False" Height="76px" Style="margin-left: 0px" Text="비회원예매" Width="102px" />
-                </td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style18">&nbsp;</td>
-                <td class="auto-style12">
+                <td class="auto-style33"></td>
+                <td class="auto-style34">
                     <asp:Label ID="Sid_Label" runat="server" Font-Bold="True" Font-Size="17px" ForeColor="Black">주민등록번호</asp:Label>
                 </td>
-                <td class="auto-style14">
-                    <asp:TextBox ID="Non_memberResidentText" runat="server" Width="255px"></asp:TextBox>
+                <td class="auto-style35">
+                    <asp:TextBox ID="SIDText" runat="server" Width="255px"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style16" rowspan="2">
+                    <asp:Button ID="FindIDButton" runat="server" CssClass="button" Font-Size="12px" Font-Strikeout="False" Height="76px" Style="margin-left: 0px" Text="아이디 찾기" Width="102px" />
+                </td>
+                <td class="auto-style36"></td>
             </tr>
             <tr>
                 <td class="auto-style18">&nbsp;</td>
@@ -87,18 +96,16 @@
                     <asp:Label ID="Phone_Label" runat="server" Font-Bold="True" Font-Size="17px" ForeColor="Black">휴대폰번호</asp:Label>
                 </td>
                 <td class="auto-style14">
-                    <asp:TextBox ID="Non_memberPhNText" runat="server" TextMode="Phone" Width="255px"></asp:TextBox>
+                    <asp:TextBox ID="PhNText" runat="server" TextMode="Phone" Width="255px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style18">&nbsp;</td>
                 <td class="auto-style12">
-                    <asp:Label ID="Phone_Label0" runat="server" Font-Bold="True" Font-Size="17px" ForeColor="Black">비밀번호</asp:Label>
-                </td>
+                    &nbsp;</td>
                 <td class="auto-style14">
-                    <asp:TextBox ID="Non_memberPWText" runat="server" TextMode="Phone" Width="255px" OnTextChanged="Non_memberPhNText0_TextChanged"></asp:TextBox>
-                </td>
+                    &nbsp;</td>
                 <td class="auto-style16">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>

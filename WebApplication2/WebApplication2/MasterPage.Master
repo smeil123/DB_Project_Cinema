@@ -17,16 +17,17 @@
     
     <form id="form1" runat="server">
         <div class="systemName">
-        <h1>영화 예매 시스템</h1>
+        <h1>서울 시네마</h1>
     </div>
         <div class="wrapper">
             <div class="menu">
                 <ul>
-                    <li class="navigation_first_item"><a href="Home.aspx">Home</a></li>
+                    <li class="navigation_first_item"><a href="Home.aspx">홈화면</a></li>
                     <li><a href="Ticketing.aspx">예매하기</a></li>
-                    <li><a href="ShowTimes.aspx">ShowTimes</a></li>
-                    <li><a href="LoginCustomer.aspx">Login</a></li>
+                    <li><a href="LoginMember.aspx">로그인</a></li>
                     <li><a href="Ragistration.aspx">회원가입</a></li>
+                    <li><a href="MyPage.aspx">마이페이지</a></li>
+                    <li><a href="MyPage.aspx">예매확인하기</a></li>
                 </ul>
             </div>
             <div class="clear"></div>
@@ -36,7 +37,10 @@
             </div>
             <div class="clear"></div>
             <div class="footer">
-                <h2>Copyright@abc.com</h2>
+                <h2>주소 : 서울시 동대문구 서울시립대로 163<br />
+                    고객센터 : 02-6490-2440~1<br />
+                    소개 : 전체 8개의 상영관 2,100석 좌석 보유
+                </h2>
             </div>
         </div>
     </form>
