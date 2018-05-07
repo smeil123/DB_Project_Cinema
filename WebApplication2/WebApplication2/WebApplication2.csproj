@@ -64,7 +64,7 @@
     <Content Include="Home.aspx" />
     <Content Include="LoginMember.aspx" />
     <Content Include="MovieDetail.aspx" />
-    <Content Include="MyPage.aspx" />
+    <Content Include="MyPageChangeInfo.aspx" />
     <Content Include="Payment.aspx" />
     <Content Include="Ragistration.aspx" />
     <Content Include="ChooseSeat.aspx" />
@@ -72,6 +72,8 @@
     <Content Include="Ticketing.aspx" />
     <Content Include="Web.config" />
     <Content Include="LoginCustomer.aspx" />
+    <Content Include="MyPageChangePwd.aspx" />
+    <Content Include="MyPageForm.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Home.aspx.cs">
@@ -95,12 +97,12 @@
     <Compile Include="MovieDetail.aspx.designer.cs">
       <DependentUpon>MovieDetail.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MyPage.aspx.cs">
-      <DependentUpon>MyPage.aspx</DependentUpon>
+    <Compile Include="MyPageChangeInfo.aspx.cs">
+      <DependentUpon>MyPageChangeInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MyPage.aspx.designer.cs">
-      <DependentUpon>MyPage.aspx</DependentUpon>
+    <Compile Include="MyPageChangeInfo.aspx.designer.cs">
+      <DependentUpon>MyPageChangeInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Payment.aspx.cs">
       <DependentUpon>Payment.aspx</DependentUpon>
@@ -144,6 +146,20 @@
     </Compile>
     <Compile Include="LoginCustomer.aspx.designer.cs">
       <DependentUpon>LoginCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyPageChangePwd.aspx.cs">
+      <DependentUpon>MyPageChangePwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyPageChangePwd.aspx.designer.cs">
+      <DependentUpon>MyPageChangePwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyPageForm.aspx.cs">
+      <DependentUpon>MyPageForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyPageForm.aspx.designer.cs">
+      <DependentUpon>MyPageForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

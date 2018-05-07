@@ -76,30 +76,21 @@ namespace WebApplication2 {
         protected global::System.Web.UI.WebControls.TextBox PhoneNumberText;
         
         /// <summary>
-        /// FemaleRadio 컨트롤입니다.
+        /// RadioButtonList1 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton FemaleRadio;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
         
         /// <summary>
-        /// MaleRadio 컨트롤입니다.
+        /// Button_Submit0 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton MaleRadio;
-        
-        /// <summary>
-        /// Button_Submit 컨트롤입니다.
-        /// </summary>
-        /// <remarks>
-        /// 자동 생성 필드입니다.
-        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_Submit;
+        protected global::System.Web.UI.WebControls.Button Button_Submit0;
     }
 }
