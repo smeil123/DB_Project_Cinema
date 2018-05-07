@@ -103,13 +103,13 @@ namespace WebApplication2 {
         protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
         
         /// <summary>
-        /// TextBoxRPW0 컨트롤입니다.
+        /// TextBoxEmail0 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxRPW0;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxEmail0;
         
         /// <summary>
         /// ResidentNumberText 컨트롤입니다.
@@ -148,22 +148,13 @@ namespace WebApplication2 {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator3;
         
         /// <summary>
-        /// FemaleRadio 컨트롤입니다.
+        /// RadioButtonList1 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton FemaleRadio;
-        
-        /// <summary>
-        /// MaleRadio 컨트롤입니다.
-        /// </summary>
-        /// <remarks>
-        /// 자동 생성 필드입니다.
-        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton MaleRadio;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
         
         /// <summary>
         /// Button_Submit 컨트롤입니다.

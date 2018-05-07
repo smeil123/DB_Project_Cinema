@@ -65,7 +65,7 @@
             <tr>
                 <td class="text">E-mail:</td>
                 <td class="auto-style10">
-                    <asp:TextBox ID="TextBoxRPW0" runat="server" Height="23px" TextMode="Password" Width="180px"></asp:TextBox>
+                    <asp:TextBox ID="TextBoxEmail0" runat="server" Height="23px" Width="180px"></asp:TextBox>
                 </td>
                 <td class="validatortext" colspan="2">
                     &nbsp;</td>
@@ -94,9 +94,10 @@
                 <td class="text">성별:
                 </td>
                 <td class="auto-style7">
-                    <asp:RadioButton ID="FemaleRadio" runat="server" Text="여자" />
-                &nbsp;&nbsp;
-                    <asp:RadioButton ID="MaleRadio" runat="server" Text="남자" />
+                    <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal" Width="154px">
+                        <asp:ListItem>여자</asp:ListItem>
+                        <asp:ListItem>남자</asp:ListItem>
+                    </asp:RadioButtonList>
                 </td>
                 <td class="auto-style22">&nbsp;</td>
                 <td>&nbsp;</td>
