@@ -63,6 +63,14 @@
                 </td>
             </tr>
             <tr>
+                <td class="text">E-mail:</td>
+                <td class="auto-style10">
+                    <asp:TextBox ID="TextBoxRPW0" runat="server" Height="23px" TextMode="Password" Width="180px"></asp:TextBox>
+                </td>
+                <td class="validatortext" colspan="2">
+                    &nbsp;</td>
+            </tr>
+            <tr>
                 <td class="text">주민등록번호:
                 </td>
                 <td class="auto-style26">
