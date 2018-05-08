@@ -21,15 +21,11 @@
             width: 19px;
         }
         .auto-style57 {
-            width: 195px;
+            width: 218px;
             height: 337px;
         }
         .auto-style94 {
             width: 19px;
-            height: 55px;
-        }
-        .auto-style99 {
-            width: 195px;
             height: 55px;
         }
         .auto-style101 {
@@ -47,9 +43,6 @@
             width: 291px;
             height: 22px;
         }
-        .auto-style104 {
-            width: 129px;
-        }
         .auto-style105 {
             width: 291px;
             height: 55px;
@@ -57,6 +50,9 @@
         .auto-style106 {
             width: 170px;
             height: 55px;
+        }
+        .auto-style107 {
+            width: 213px;
         }
     </style>
 </asp:Content>
@@ -116,8 +112,7 @@
                     <asp:Label ID="pwlabel" runat="server" Font-Size="15px" Text="비밀번호 확인 :"></asp:Label>
                 </td>
                 <td class="auto-style103" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">
-                    <asp:TextBox ID="ConfirmPWText" runat="server"></asp:TextBox>
-                </td>
+                    <input id="ConfirmPWText" class="auto-style107" type="password" /></td>
                 <td class="auto-style101">&nbsp;</td>
                 <td class="auto-style101">
                     &nbsp;</td>
@@ -136,7 +131,7 @@
                 <td class="auto-style102"></td>
             </tr>
             <tr>
-                <td class="auto-style106"></td>
+                <td class="auto-style106">&nbsp;</td>
                 <td class="auto-style103" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
                 <td class="auto-style101">&nbsp;</td>
                 <td class="auto-style101">
