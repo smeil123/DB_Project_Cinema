@@ -18,12 +18,12 @@
             height: 29px;
         }
         .auto-style5 {
-            width: 241px;
+            width: 249px;
             text-align: right;
         }
         .auto-style8 {
             text-align: left;
-            width: 227px;
+            width: 164px;
         }
         .auto-style9 {
             width: 252px;
@@ -72,43 +72,43 @@
         }
         .auto-style29 {
             text-align: left;
-            width: 502px;
+            width: 499px;
         }
         .auto-style30 {
             height: 31px;
-            width: 502px;
+            width: 499px;
         }
         .auto-style31 {
-            width: 502px;
+            width: 499px;
             height: 32px;
         }
         .auto-style32 {
-            width: 502px;
-            height: 29px;
-        }
-        .auto-style33 {
-            width: 241px;
-            height: 31px;
-        }
-        .auto-style34 {
-            width: 241px;
-            height: 34px;
-        }
-        .auto-style35 {
-            width: 241px;
-            height: 221px;
-        }
-        .auto-style36 {
-            width: 241px;
-            height: 32px;
-        }
-        .auto-style37 {
-            width: 241px;
+            width: 499px;
             height: 29px;
         }
         .auto-style38 {
-            width: 243px;
+            width: 161px;
             text-align: left;
+        }
+        .auto-style39 {
+            width: 249px;
+            height: 31px;
+        }
+        .auto-style40 {
+            width: 249px;
+            height: 34px;
+        }
+        .auto-style41 {
+            width: 249px;
+            height: 221px;
+        }
+        .auto-style42 {
+            width: 249px;
+            height: 32px;
+        }
+        .auto-style43 {
+            width: 249px;
+            height: 29px;
         }
     </style>
 </asp:Content>
@@ -140,29 +140,29 @@
             <td class="auto-style9">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style33"></td>
+            <td class="auto-style39"></td>
             <td class="auto-style30"></td>
             <td class="auto-style19" colspan="2"></td>
             <td class="auto-style21"></td>
         </tr>
         <tr>
-            <td class="auto-style34"></td>
+            <td class="auto-style40"></td>
             <td class="auto-style10" colspan="3"><strong>SCREEN</strong></td>
             <td class="auto-style16"></td>
         </tr>
         <tr>
-            <td class="auto-style35"></td>
+            <td class="auto-style41"></td>
             <td class="auto-style13" colspan="3">좌석</td>
             <td class="auto-style14"></td>
         </tr>
         <tr>
-            <td class="auto-style36"></td>
+            <td class="auto-style42"></td>
             <td class="auto-style31"></td>
             <td class="auto-style26" colspan="2"></td>
             <td class="auto-style28"></td>
         </tr>
         <tr>
-            <td class="auto-style37"></td>
+            <td class="auto-style43"></td>
             <td class="auto-style32"></td>
             <td class="auto-style23" colspan="2"></td>
             <td class="auto-style3"></td>
