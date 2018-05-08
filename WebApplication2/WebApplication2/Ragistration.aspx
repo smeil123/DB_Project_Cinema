@@ -27,16 +27,65 @@
             height: 35px;
         }
         .auto-style9 {
-        height: 35px;
-        text-align: center;
-    }
+            height: 35px;
+            text-align: center;
+            width: 250px;
+        }
         .auto-style10 {
-        text-align: center;
-        height: 34px;
-    }
+            text-align: center;
+            height: 34px;
+            width: 250px;
+        }
+        .auto-style11 {
+            height: 20px;
+            width: 106px;
+        }
+        .auto-style12 {
+            height: 34px;
+            width: 106px;
+        }
+        .auto-style13 {
+            height: 35px;
+            width: 106px;
+        }
+        .auto-style14 {
+            height: 40px;
+            width: 106px;
+        }
+        .auto-style15 {
+            height: 34px;
+            width: 126px;
+        }
+        .auto-style16 {
+            height: 35px;
+            width: 126px;
+        }
+        .auto-style17 {
+            height: 40px;
+            width: 126px;
+        }
+        .auto-style18 {
+            height: 20px;
+            width: 126px;
+        }
+        .auto-style19 {
+            height: 40px;
+            width: 250px;
+        }
+        .auto-style20 {
+            height: 20px;
+            width: 250px;
+        }
+        .auto-style21 {
+            height: 35px;
+            text-align: right;
+            width: 250px;
+        }
         </style>
      <table align="center" class="auto-style1">
             <tr>
+                <td class="auto-style11">
+                    &nbsp;</td>
                 <td class="auto-style3" colspan="4">
                     <div class="menutitle">
                     <asp:Label ID="Label1" runat="server" Font-Bold="True" Text="회원가입" CssClass="menutitle"></asp:Label>
@@ -44,7 +93,8 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style7">User Name:</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style15">User Name:</td>
                 <td class="auto-style10">
                     <asp:TextBox ID="TextBoxUN" runat="server" Height="23px" Width="180px"></asp:TextBox>
                 </td>
@@ -53,7 +103,8 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style7">ID:</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style15">ID:</td>
                 <td class="auto-style10">
                     <asp:TextBox ID="TextBoxEmail" runat="server" Height="23px" Width="180px"></asp:TextBox>
                 </td>
@@ -65,7 +116,8 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style7">Password:</td>
+                <td class="auto-style12"></td>
+                <td class="auto-style15">Password:</td>
                 <td class="auto-style10">
                     <asp:TextBox ID="TextBoxPW" runat="server" Height="23px" TextMode="Password" Width="180px"></asp:TextBox>
                 </td>
@@ -74,7 +126,8 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style7">Confirm Password:</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style15">Confirm Password:</td>
                 <td class="auto-style10">
                     <asp:TextBox ID="TextBoxRPW" runat="server" Height="23px" TextMode="Password" Width="180px"></asp:TextBox>
                 </td>
@@ -85,7 +138,8 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style7">E-mail:</td>
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style15">E-mail:</td>
                 <td class="auto-style10">
                     <asp:TextBox ID="TextBoxEmail0" runat="server" Height="23px" Width="180px"></asp:TextBox>
                 </td>
@@ -93,7 +147,8 @@
                     &nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style7">주민등록번호:
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style15">주민등록번호:
                 </td>
                 <td class="auto-style10">
                     <asp:TextBox ID="ResidentNumberText" runat="server" Height="23px" TextMode="Password" Width="180px"></asp:TextBox>
@@ -103,7 +158,8 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style7">연락처:
+                <td class="auto-style12">&nbsp;</td>
+                <td class="auto-style15">연락처:
                 </td>
                 <td class="auto-style10">
                     <asp:TextBox ID="PhoneNumberText" runat="server" Height="23px" TextMode="Password" Width="180px"></asp:TextBox>
@@ -113,10 +169,11 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style8">성별:
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style16">성별:
                 </td>
-                <td class="auto-style9">
-                    <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal" Width="154px" style="text-align: left">
+                <td class="auto-style21">
+                    <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal" Width="154px">
                         <asp:ListItem>여자</asp:ListItem>
                         <asp:ListItem>남자</asp:ListItem>
                     </asp:RadioButtonList>
@@ -125,23 +182,26 @@
                 <td class="auto-style8">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style8"></td>
+                <td class="auto-style13">&nbsp;</td>
+                <td class="auto-style16"></td>
                 <td class="auto-style9">
                     &nbsp;</td>
                 <td class="auto-style8">&nbsp;</td>
                 <td class="auto-style8"></td>
             </tr>
             <tr>
-                <td class="auto-style5"></td>
-                <td class="auto-style5">
+                <td class="auto-style14">&nbsp;</td>
+                <td class="auto-style17"></td>
+                <td class="auto-style19">
                     <asp:Button ID="Button_Submit" runat="server" Height="40px" style="text-align: center" Text="가입하기" Width="180px" CssClass="button" />
                 </td>
                 <td class="auto-style5"></td>
                 <td class="auto-style5"></td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style11">&nbsp;</td>
+                <td class="auto-style18">&nbsp;</td>
+                <td class="auto-style20">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
                 <td class="auto-style3">&nbsp;</td>
             </tr>
