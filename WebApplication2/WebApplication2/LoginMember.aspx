@@ -5,49 +5,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        .auto-style1 {
-            height: 31px;
-            width: 99%;
-        }
-
-        .auto-style2 {
-            height: 31px;
-            width: 42%;
-            text-align: center;
-        }
-
-        .auto-style3 {
-            width: 8%;
-        }
-
+        
         .PasswordTextbox, .EmailTextbox {
             float: right;
         }
 
-        .auto-style4 {
-            height: 31px;
-            width: 42%;
-            text-align: right;
-        }
-
-        .auto-style5 {
-            height: 31px;
-            width: 43%;
-        }
-
-        .auto-style6 {
-            width: 88%;
-        }
-
-        .auto-style7 {
-            height: 31px;
-            width: 43%;
-            text-align: right;
-        }
-        .auto-style8 {
-            height: 31px;
-            text-align: center;
-        }
         .auto-style9 {
             width: 100%;
         }
@@ -78,6 +40,10 @@
         .auto-style33 {
             font-size: x-small;
         }
+        .auto-style34 {
+            height: 50px;
+            text-align: left;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
@@ -100,8 +66,8 @@
                 <td class="auto-style10">
                 <asp:Label ID="E_Label" runat="server" Font-Bold="True" Font-Size="17px" ForeColor="Black" Text="ID"></asp:Label>
                 </td>
-                <td class="auto-style10">
-                <asp:TextBox ID="IDTextbox" runat="server" Width="255px" Style="text-align: right" TextMode="Email"></asp:TextBox>
+                <td class="auto-style34">
+                <asp:TextBox ID="IDTextbox" runat="server" Width="255px" Style="text-align: left" TextMode="Email"></asp:TextBox>
                 </td>
                 <td rowspan="2">
                 <asp:Button ID="LoginButton" runat="server" CssClass="button" Text="로그인" Height="76px" />
