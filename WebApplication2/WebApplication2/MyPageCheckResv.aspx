@@ -7,25 +7,14 @@
 
         .auto-style1 {
             width: 1000px;
-        }
-        .auto-style94 {
-            width: 19px;
-            height: 55px;
+            height: 511px;
         }
         .auto-style57 {
             width: 195px;
-            height: 337px;
+            height: 336px;
         }
         .auto-style2 {
             font-size: medium;
-        }
-        .auto-style93 {
-            width: 70px;
-            height: 55px;
-        }
-        .auto-style101 {
-            width: 145px;
-            height: 55px;
         }
         .auto-style54 {
             width: 19px;
@@ -35,50 +24,16 @@
             font-weight: bold;
             text-align: center;
             width: 141px;
-            height: 53px;
+            height: 51px;
             color: #000000;
             background-color: #ACD7F9;
-        }
-        .auto-style102 {
-            font-size: 18px;
-            font-weight: bold;
-            text-align: left;
-            width: 141px;
-            height: 22px;
-        }
-        .auto-style99 {
-            width: 195px;
-            height: 55px;
         }
         .auto-style92 {
             width: 509px;
         }
-        .auto-style107 {
-            width: 147px;
-            height: 53px;
-            font-size: small;
-            color: #000000;
-            background-color: #ACD7F9;
-        }
-        .auto-style109 {
-            width: 509px;
-            height: 55px;
-        }
-        .auto-style112 {
-            width: 141px;
-            height: 55px;
-        }
-        .auto-style114 {
-            width: 198px;
-            height: 55px;
-        }
-        .auto-style115 {
-            width: 147px;
-            height: 55px;
-        }
         .auto-style116 {
             width: 145px;
-            height: 55px;
+            height: 57px;
             text-align: left;
         }
         .auto-style117 {
@@ -89,6 +44,84 @@
             width: 145px;
             height: 53px;
         }
+        .auto-style119 {
+            width: 19px;
+            height: 53px;
+        }
+        .auto-style120 {
+            width: 141px;
+            height: 53px;
+        }
+        .auto-style121 {
+            width: 147px;
+            height: 53px;
+        }
+        .auto-style122 {
+            width: 509px;
+            height: 53px;
+        }
+        .auto-style123 {
+            width: 198px;
+            height: 53px;
+        }
+        .auto-style124 {
+            width: 70px;
+            height: 51px;
+        }
+        .auto-style125 {
+            width: 147px;
+            height: 51px;
+            font-size: small;
+            color: #000000;
+            background-color: #ACD7F9;
+        }
+        .auto-style126 {
+            width: 145px;
+            height: 51px;
+        }
+        .auto-style128 {
+            width: 195px;
+            height: 53px;
+        }
+        .auto-style129 {
+            width: 70px;
+            height: 57px;
+        }
+        .auto-style130 {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+            width: 141px;
+            height: 57px;
+        }
+        .auto-style131 {
+            width: 147px;
+            height: 57px;
+        }
+        .auto-style132 {
+            width: 509px;
+            height: 57px;
+        }
+        .auto-style133 {
+            width: 198px;
+            height: 57px;
+        }
+        .auto-style134 {
+            width: 145px;
+            height: 57px;
+        }
+        .auto-style135 {
+            width: 19px;
+            height: 57px;
+        }
+        .auto-style136 {
+            width: 195px;
+            height: 57px;
+        }
+        .auto-style137 {
+            width: 141px;
+            height: 57px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
@@ -96,7 +129,7 @@
         <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="39px" Text="MyPage"></asp:Label>
         <table class="auto-style1">
             <tr>
-                <td class="auto-style94"></td>
+                <td class="auto-style119"></td>
                 <td class="auto-style57" rowspan="6">
                     <asp:TreeView ID="TreeView2" runat="server" CssClass="auto-style2" BorderStyle="None" Font-Bold="False" Font-Overline="False" Font-Size="Large" ForeColor="#003300" Height="263px" ImageSet="Simple" Width="172px">
                         <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
@@ -121,86 +154,86 @@
                         <SelectedNodeStyle Font-Underline="True" ForeColor="#5555DD" HorizontalPadding="0px" VerticalPadding="0px" />
                     </asp:TreeView>
                 </td>
-                <td class="auto-style93"></td>
-                <td class="auto-style112"></td>
-                <td class="auto-style115"></td>
-                <td class="auto-style109"></td>
-                <td class="auto-style114"></td>
-                <td class="auto-style101"></td>
-            </tr>
-            <tr>
-                <td class="auto-style54" rowspan="5">&nbsp;</td>
                 <td class="auto-style117"></td>
-                <td class="auto-style43" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">예매일</td>
-                <td class="auto-style107">예매번호</td>
-                
-                <td class="auto-style107">예매내역</td>
-                <td class="auto-style107">결제금액</span></td>
+                <td class="auto-style120"></td>
+                <td class="auto-style121"></td>
+                <td class="auto-style122"></td>
+                <td class="auto-style123"></td>
                 <td class="auto-style118"></td>
             </tr>
             <tr>
-                <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style115">&nbsp;</td>
-                <td class="auto-style109">&nbsp;</td>
-                <td class="auto-style114"></td>
+                <td class="auto-style54" rowspan="5">&nbsp;</td>
+                <td class="auto-style124"></td>
+                <td class="auto-style43" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">예매일</td>
+                <td class="auto-style125">예매번호</td>
+                
+                <td class="auto-style125">예매내역</td>
+                <td class="auto-style125">결제금액</span></td>
+                <td class="auto-style126"></td>
+            </tr>
+            <tr>
+                <td class="auto-style129"></td>
+                <td class="auto-style130" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
+                <td class="auto-style131">&nbsp;</td>
+                <td class="auto-style132">&nbsp;</td>
+                <td class="auto-style133"></td>
                 <td class="auto-style116">
                     <asp:Button ID="Button_Submit0" runat="server" Height="25px" style="text-align: center" Text="결제취소" Width="86px" CssClass="button" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style115">&nbsp;</td>
-                <td class="auto-style109">&nbsp;</td>
-                <td class="auto-style114"></td>
-                <td class="auto-style101"></td>
+                <td class="auto-style129"></td>
+                <td class="auto-style130" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
+                <td class="auto-style131">&nbsp;</td>
+                <td class="auto-style132">&nbsp;</td>
+                <td class="auto-style133"></td>
+                <td class="auto-style134"></td>
             </tr>
             <tr>
-                <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style115">&nbsp;</td>
-                <td class="auto-style109">&nbsp;</td>
-                <td class="auto-style114"></td>
-                <td class="auto-style101"></td>
+                <td class="auto-style129"></td>
+                <td class="auto-style130" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
+                <td class="auto-style131">&nbsp;</td>
+                <td class="auto-style132">&nbsp;</td>
+                <td class="auto-style133"></td>
+                <td class="auto-style134"></td>
             </tr>
             <tr>
-                <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style115">&nbsp;</td>
-                <td class="auto-style109">&nbsp;</td>
-                <td class="auto-style114"></td>
-                <td class="auto-style101"></td>
+                <td class="auto-style129"></td>
+                <td class="auto-style130" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
+                <td class="auto-style131">&nbsp;</td>
+                <td class="auto-style132">&nbsp;</td>
+                <td class="auto-style133"></td>
+                <td class="auto-style134"></td>
             </tr>
             <tr>
-                <td class="auto-style94">&nbsp;</td>
-                <td class="auto-style99">&nbsp;</td>
-                <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style115">&nbsp;</td>
-                <td class="auto-style109">&nbsp;</td>
-                <td class="auto-style114"></td>
-                <td class="auto-style101"></td>
+                <td class="auto-style135">&nbsp;</td>
+                <td class="auto-style136">&nbsp;</td>
+                <td class="auto-style129"></td>
+                <td class="auto-style130" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
+                <td class="auto-style131">&nbsp;</td>
+                <td class="auto-style132">&nbsp;</td>
+                <td class="auto-style133"></td>
+                <td class="auto-style134"></td>
             </tr>
             <tr>
-                <td class="auto-style94"></td>
-                <td class="auto-style99"></td>
-                <td class="auto-style93"></td>
-                <td class="auto-style112"></td>
-                <td class="auto-style115"></td>
+                <td class="auto-style135"></td>
+                <td class="auto-style136"></td>
+                <td class="auto-style129"></td>
+                <td class="auto-style137"></td>
+                <td class="auto-style131"></td>
                 <td class="auto-style92">&nbsp;</td>
-                <td class="auto-style114"></td>
-                <td class="auto-style101"></td>
+                <td class="auto-style133"></td>
+                <td class="auto-style134"></td>
             </tr>
             <tr>
-                <td class="auto-style94"></td>
-                <td class="auto-style99"></td>
-                <td class="auto-style93"></td>
-                <td class="auto-style112"></td>
-                <td class="auto-style115"></td>
+                <td class="auto-style119"></td>
+                <td class="auto-style128"></td>
+                <td class="auto-style117"></td>
+                <td class="auto-style120"></td>
+                <td class="auto-style121"></td>
                 <td class="auto-style92">&nbsp;</td>
-                <td class="auto-style114"></td>
-                <td class="auto-style101"></td>
+                <td class="auto-style123"></td>
+                <td class="auto-style118"></td>
             </tr>
         </table>
     </div>

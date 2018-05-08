@@ -73,6 +73,7 @@
     <Content Include="Payment.aspx" />
     <Content Include="Ragistration.aspx" />
     <Content Include="ChooseSeat.aspx" />
+    <Content Include="ScreenInfo.aspx" />
     <Content Include="Styles\main.css" />
     <Content Include="Ticketing.aspx" />
     <Content Include="Web.config" />
@@ -173,6 +174,13 @@
     </Compile>
     <Compile Include="ChooseSeat.aspx.designer.cs">
       <DependentUpon>ChooseSeat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenInfo.aspx.cs">
+      <DependentUpon>ScreenInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ScreenInfo.aspx.designer.cs">
+      <DependentUpon>ScreenInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ticketing.aspx.cs">
       <DependentUpon>Ticketing.aspx</DependentUpon>
