@@ -41,6 +41,16 @@
         .auto-style16 {
             width: 77px;
         }
+        .auto-style33 {
+            width: 255px;
+        }
+        .auto-style34 {
+            width: 25px;
+            height: 50px;
+        }
+        .auto-style35 {
+            width: 25px;
+        }
         </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
@@ -55,6 +65,7 @@
                 <td class="auto-style26">
                     <asp:Button ID="Button11" runat="server" Height="40px" Text="비회원" Width="95px" PostBackUrl="~/LoginCustomer.aspx" CssClass="button" />
                 </td>
+                <td class="auto-style34">&nbsp;</td>
                 <td class="auto-style31"></td>
                 <td class="auto-style32"></td>
             </tr>
@@ -66,7 +77,9 @@
                 <td class="auto-style14">
                     <asp:TextBox ID="Non_memberName" runat="server" Width="255px"></asp:TextBox>
                 </td>
-                <td class="auto-style16" rowspan="3">
+                <td class="auto-style35" rowspan="3">
+                    &nbsp;</td>
+                <td class="auto-style16" rowspan="4">
                     <asp:Button ID="Button2" runat="server" CssClass="button" Font-Size="12px" Font-Strikeout="False" Height="76px" Style="margin-left: 0px" Text="비회원예매" Width="102px" />
                 </td>
                 <td>&nbsp;</td>
@@ -97,15 +110,15 @@
                     <asp:Label ID="Phone_Label0" runat="server" Font-Bold="True" Font-Size="17px" ForeColor="Black">비밀번호</asp:Label>
                 </td>
                 <td class="auto-style14">
-                    <asp:TextBox ID="Non_memberPWText" runat="server" TextMode="Phone" Width="255px" OnTextChanged="Non_memberPhNText0_TextChanged"></asp:TextBox>
-                </td>
-                <td class="auto-style16">&nbsp;</td>
+                    <input id="Non_memberPWText" class="auto-style33" type="password" /></td>
+                <td class="auto-style35">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style18">&nbsp;</td>
                 <td class="auto-style12">&nbsp;</td>
                 <td class="auto-style14">&nbsp;</td>
+                <td class="auto-style35">&nbsp;</td>
                 <td class="auto-style16">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
