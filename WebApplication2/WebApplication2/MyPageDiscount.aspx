@@ -23,11 +23,14 @@
             width: 19px;
         }
         .auto-style43 {
-            font-size: medium;
+            font-size: small;
             font-weight: bold;
-            text-align: left;
+            text-align: center;
             width: 144px;
-            height: 20px;
+            height: 12px;
+            border-left-style: inherit;
+            border-left-width: 0px;
+            border-right-style: inherit;
         }
         .auto-style92 {
             width: 145px;
@@ -52,6 +55,57 @@
             font-size: 18px;
             font-weight: bold;
             text-align: left;
+            width: 144px;
+            height: 22px;
+        }
+        .auto-style103 {
+            width: 48px;
+            height: 12px;
+        }
+        .auto-style104 {
+            width: 145px;
+            height: 12px;
+        }
+        .auto-style106 {
+            width: 145px;
+            height: 12px;
+            font-size: small;
+        }
+        .auto-style107 {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: left;
+            width: 144px;
+            height: 60px;
+        }
+        .auto-style108 {
+            width: 48px;
+            height: 60px;
+        }
+        .auto-style109 {
+            width: 145px;
+            height: 60px;
+        }
+        .auto-style110 {
+            width: 48px;
+            height: 22px;
+        }
+        .auto-style112 {
+            width: 145px;
+            height: 22px;
+        }
+        .auto-style113 {
+            width: 145px;
+            height: 22px;
+            font-size: small;
+        }
+        .auto-style115 {
+            font-size: small;
+        }
+        .auto-style116 {
+            font-size: small;
+            font-weight: bold;
+            text-align: center;
             width: 144px;
             height: 22px;
         }
@@ -96,12 +150,28 @@
             </tr>
             <tr>
                 <td class="auto-style54" rowspan="5">&nbsp;</td>
-                <td class="auto-style93"></td>
-                <td class="auto-style43" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style101"></td>
-                <td class="auto-style101">&nbsp;</td>
-                <td class="auto-style101"></td>
-                <td class="auto-style101"></td>
+                <td class="auto-style103"></td>
+                <td class="auto-style43">통신사 이름</td>
+                <td class="auto-style106">할인금액</td>
+                <td class="auto-style106">통신사 이름</td>
+                <td class="auto-style106">할인금액</td>
+                <td class="auto-style104"></td>
+            </tr>
+            <tr>
+                <td class="auto-style108"></td>
+                <td class="auto-style107" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;"></td>
+                <td class="auto-style109"></td>
+                <td class="auto-style109"></td>
+                <td class="auto-style109"></td>
+                <td class="auto-style109"></td>
+            </tr>
+            <tr>
+                <td class="auto-style110"></td>
+                <td class="auto-style116" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">통신사 이름</td>
+                <td class="auto-style113">할인금액</td>
+                <td class="auto-style112"><span class="auto-style115">통신사 이름</td>
+                <td class="auto-style113">할인금액</span></td>
+                <td class="auto-style112"></td>
             </tr>
             <tr>
                 <td class="auto-style93"></td>
@@ -112,28 +182,12 @@
                 <td class="auto-style101"></td>
             </tr>
             <tr>
-                <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style101">&nbsp;</td>
-                <td class="auto-style101">&nbsp;</td>
-                <td class="auto-style101"></td>
-                <td class="auto-style101"></td>
-            </tr>
-            <tr>
-                <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style101">&nbsp;</td>
-                <td class="auto-style101">&nbsp;</td>
-                <td class="auto-style101"></td>
-                <td class="auto-style101"></td>
-            </tr>
-            <tr>
-                <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
-                <td class="auto-style101">&nbsp;</td>
-                <td class="auto-style101">&nbsp;</td>
-                <td class="auto-style101"></td>
-                <td class="auto-style101"></td>
+                <td class="auto-style110"></td>
+                <td class="auto-style116" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">통신사 이름</td>
+                <td class="auto-style113">할인금액</td>
+                <td class="auto-style112"><span class="auto-style115">통신사 이름</span></td>
+                <td class="auto-style112"><span class="auto-style115">할인금액</span></td>
+                <td class="auto-style112"></td>
             </tr>
             <tr>
                 <td class="auto-style94">&nbsp;</td>

@@ -59,6 +59,10 @@
         .auto-style36 {
             height: 45px;
         }
+        .auto-style37 {
+            width: 77px;
+            height: 45px;
+        }
     </style>
 
 </asp:Content>
@@ -110,11 +114,11 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style18">&nbsp;</td>
-                <td class="auto-style12">&nbsp;</td>
-                <td class="auto-style14">&nbsp;</td>
-                <td class="auto-style16">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style33"></td>
+                <td class="auto-style34"></td>
+                <td class="auto-style35"></td>
+                <td class="auto-style37"></td>
+                <td class="auto-style36"></td>
             </tr>
         </table>
     </div>
