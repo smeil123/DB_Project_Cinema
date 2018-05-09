@@ -69,7 +69,6 @@
     <Content Include="MyPage.aspx" />
     <Content Include="MyPageChangeInfo.aspx" />
     <Content Include="MyPageCheckResv.aspx" />
-    <Content Include="MyPageInterest.aspx" />
     <Content Include="MyPageMyPoint.aspx" />
     <Content Include="Payment.aspx" />
     <Content Include="Ragistration.aspx" />
@@ -139,13 +138,6 @@
     </Compile>
     <Compile Include="MyPageCheckResv.aspx.designer.cs">
       <DependentUpon>MyPageCheckResv.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="MyPageInterest.aspx.cs">
-      <DependentUpon>MyPageInterest.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="MyPageInterest.aspx.designer.cs">
-      <DependentUpon>MyPageInterest.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyPageMyPoint.aspx.cs">
       <DependentUpon>MyPageMyPoint.aspx</DependentUpon>

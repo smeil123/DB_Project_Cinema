@@ -82,7 +82,6 @@
                             </asp:TreeNode>
                             <asp:TreeNode Text="예매내역" Value="예매내역확인">
                                 <asp:TreeNode Text="예매내역 확인" Value="예매내역 확인" NavigateUrl="MyPageCheckResv.aspx"></asp:TreeNode>
-                                <asp:TreeNode Text="관심리스트" Value="관심리스트" NavigateUrl="MyPageInterest.aspx"></asp:TreeNode>
                             </asp:TreeNode>
                             <asp:TreeNode Text="포인트" Value="포인트">
                                 <asp:TreeNode Text="포인트 조회" Value="포인트 조회" NavigateUrl="MyPageMyPoint.aspx"></asp:TreeNode>
@@ -121,7 +120,7 @@
                 <td class="auto-style62"></td>
                 <td class="auto-style97" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;" colspan="2">회원 탈퇴하시겠습니까?</td>
                 <td class="auto-style95">
-                    <asp:Button ID="Button1" runat="server" Text="회원 탈퇴" />
+                    <asp:Button ID="Button1" runat="server" Text="회원 탈퇴" CssClass="subbutton" />
                 </td>
                 <td class="auto-style95"></td>
                 <td class="auto-style95"></td>
