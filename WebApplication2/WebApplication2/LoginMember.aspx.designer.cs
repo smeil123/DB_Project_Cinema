@@ -22,22 +22,22 @@ namespace WebApplication2 {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// Button10 컨트롤입니다.
+        /// MemLoginButton 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button10;
+        protected global::System.Web.UI.WebControls.Button MemLoginButton;
         
         /// <summary>
-        /// Button11 컨트롤입니다.
+        /// CustLoginButton 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button11;
+        protected global::System.Web.UI.WebControls.Button CustLoginButton;
         
         /// <summary>
         /// E_Label 컨트롤입니다.
@@ -85,22 +85,22 @@ namespace WebApplication2 {
         protected global::System.Web.UI.WebControls.TextBox PWTextbox;
         
         /// <summary>
-        /// Button13 컨트롤입니다.
+        /// FindIDButton 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button13;
+        protected global::System.Web.UI.WebControls.Button FindIDButton;
         
         /// <summary>
-        /// Button12 컨트롤입니다.
+        /// FindPwdButton 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button12;
+        protected global::System.Web.UI.WebControls.Button FindPwdButton;
         
         /// <summary>
         /// Label6 컨트롤입니다.
@@ -112,12 +112,12 @@ namespace WebApplication2 {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// Button14 컨트롤입니다.
+        /// RegistButton 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button14;
+        protected global::System.Web.UI.WebControls.Button RegistButton;
     }
 }

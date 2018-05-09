@@ -60,10 +60,10 @@
             <tr>
                 <td class="auto-style30"></td>
                 <td class="auto-style29">
-                    <asp:Button ID="Button10" runat="server" CssClass="button" Height="40px" Text="회원" Width="95px" PostBackUrl="~/LoginMember.aspx" />
+                    <asp:Button ID="MemLoginButton" runat="server" CssClass="subbutton" Height="40px" Text="회원" Width="95px" PostBackUrl="~/LoginMember.aspx" />
                 </td>
                 <td class="auto-style26">
-                    <asp:Button ID="Button11" runat="server" Height="40px" Text="비회원" Width="95px" PostBackUrl="~/LoginCustomer.aspx" CssClass="button" />
+                    <asp:Button ID="CustLoginButton" runat="server" Height="40px" Text="비회원" Width="95px" PostBackUrl="~/LoginCustomer.aspx" CssClass="subbutton" />
                 </td>
                 <td class="auto-style34">&nbsp;</td>
                 <td class="auto-style31"></td>
@@ -80,7 +80,7 @@
                 <td class="auto-style35" rowspan="3">
                     &nbsp;</td>
                 <td class="auto-style16" rowspan="4">
-                    <asp:Button ID="Button2" runat="server" CssClass="button" Font-Size="12px" Font-Strikeout="False" Height="76px" Style="margin-left: 0px" Text="비회원예매" Width="102px" />
+                    <asp:Button ID="CustRegButton" runat="server" CssClass="subbutton" Font-Size="12px" Font-Strikeout="False" Height="76px" Style="margin-left: 0px" Text="비회원예매" Width="102px" />
                 </td>
                 <td>&nbsp;</td>
             </tr>

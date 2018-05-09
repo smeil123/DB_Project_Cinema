@@ -122,7 +122,7 @@
             <tr>
                 <td class="auto-style106"></td>
                 <td class="auto-style103" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">
-                    <asp:Button ID="ConfirmPWButton" runat="server" CssClass="button" Height="43px" Text="확인하기" Width="126px" />
+                    <asp:Button ID="ConfirmPWButton" runat="server" CssClass="subbutton" Height="43px" Text="확인하기" Width="126px" />
                 </td>
                 <td class="auto-style101">&nbsp;</td>
                 <td class="auto-style101">

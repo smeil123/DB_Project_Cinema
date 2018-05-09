@@ -178,7 +178,7 @@
                 <td class="auto-style132">&nbsp;</td>
                 <td class="auto-style133"></td>
                 <td class="auto-style116">
-                    <asp:Button ID="Button_Submit0" runat="server" Height="25px" style="text-align: center" Text="결제취소" Width="86px" CssClass="button" />
+                    <asp:Button ID="QutiPayButton" runat="server" Height="25px" style="text-align: center" Text="결제취소" Width="86px" CssClass="subbutton" />
                 </td>
             </tr>
             <tr>

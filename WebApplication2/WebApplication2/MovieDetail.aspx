@@ -64,11 +64,8 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style13">
-                <asp:Button ID="MVTicketionButton" runat="server" Text="예매하기" Width="265px" CssClass="button" />
-            </td>
-            <td class="auto-style14">
-                <asp:Button ID="KeepingButton" runat="server" Text="관심리스트 담기" Width="265px" CssClass="button" />
+            <td colspan="2">
+                <asp:Button ID="MVTicketionButton" runat="server" Text="예매하기" Width="265px" CssClass="subbutton" />
             </td>
         </tr>
         <tr>

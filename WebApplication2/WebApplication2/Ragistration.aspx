@@ -109,7 +109,7 @@
                     <asp:TextBox ID="TextBoxEmail" runat="server" Height="23px" Width="180px"></asp:TextBox>
                 </td>
                 <td class="auto-style2">
-                    <asp:Button ID="DoubleCheckButton" runat="server" Height="40px" Text="중복확인" CssClass="button" Width="100px" />
+                    <asp:Button ID="DoubleCheckButton" runat="server" Height="40px" Text="중복확인" CssClass="subbutton" Width="100px" />
                 </td>
                 <td class="auto-style7">
                     <br />
@@ -193,7 +193,7 @@
                 <td class="auto-style14">&nbsp;</td>
                 <td class="auto-style17"></td>
                 <td class="auto-style19">
-                    <asp:Button ID="Button_Submit" runat="server" Height="40px" style="text-align: center" Text="가입하기" Width="180px" CssClass="button" />
+                    <asp:Button ID="Button_Submit" runat="server" Height="40px" style="text-align: center" Text="가입하기" Width="180px" CssClass="subbutton" />
                 </td>
                 <td class="auto-style5"></td>
                 <td class="auto-style5"></td>

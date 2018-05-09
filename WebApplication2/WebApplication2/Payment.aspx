@@ -231,7 +231,7 @@
                         <td class="auto-style12"></td>
                         <td class="auto-style21"></td>
                         <td class="auto-style7">
-                    <asp:Button ID="Button_Submit0" runat="server" Height="40px" style="text-align: center" Text="결제하기" Width="100px" CssClass="button" />
+                    <asp:Button ID="PayButton" runat="server" Height="40px" style="text-align: center" Text="결제하기" Width="100px" CssClass="subbutton" />
                         </td>
                     </tr>
                     <tr>

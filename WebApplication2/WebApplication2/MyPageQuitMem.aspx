@@ -120,7 +120,7 @@
                 <td class="auto-style62"></td>
                 <td class="auto-style97" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;" colspan="2">회원 탈퇴하시겠습니까?</td>
                 <td class="auto-style95">
-                    <asp:Button ID="Button1" runat="server" Text="회원 탈퇴" CssClass="subbutton" />
+                    <asp:Button ID="QuitButton" runat="server" Text="회원 탈퇴" CssClass="subbutton" />
                 </td>
                 <td class="auto-style95"></td>
                 <td class="auto-style95"></td>

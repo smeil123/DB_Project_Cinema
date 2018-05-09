@@ -173,7 +173,7 @@
                 <td class="auto-style90"></td>
                 <td class="auto-style93"></td>
                 <td class="auto-style92" rowspan="2">
-                    <asp:Button ID="Button_Submit0" runat="server" Height="40px" style="text-align: center" Text="변경사항 저장" Width="122px" CssClass="button" />
+                    <asp:Button ID="Button_Submit0" runat="server" Height="40px" style="text-align: center" Text="변경사항 저장" Width="122px" CssClass="subbutton" />
                 </td>
                 <td class="auto-style91"></td>
                 <td class="auto-style91"></td>

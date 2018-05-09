@@ -39,7 +39,7 @@
                 <asp:TextBox ID="MoiveSearchText" runat="server" Height="38px" Style="text-align: left" Width="600px"></asp:TextBox>
             </td>
             <td>
-                <asp:Button ID="SearchButton" runat="server" Height="45px" Text="검색" Width="92px" CssClass="button" />
+                <asp:Button ID="SearchButton" runat="server" Height="45px" Text="검색" Width="92px" CssClass="subbutton" />
             </td>
         </tr>
         <tr>

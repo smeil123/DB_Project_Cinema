@@ -69,10 +69,10 @@
             <tr>
                 <td class="auto-style30"></td>
                 <td class="auto-style29">
-                    <asp:Button ID="Button10" runat="server" CssClass="button" Height="40px" Text="비밀번호 찾기" Width="111px" PostBackUrl="~/FindPW.aspx" />
+                    <asp:Button ID="FindPwdBut" runat="server" CssClass="subbutton" Height="40px" Text="비밀번호 찾기" Width="111px" PostBackUrl="~/FindPW.aspx" />
                 </td>
                 <td class="auto-style26">
-                    <asp:Button ID="Button11" runat="server" Height="40px" Text="아이디 찾기" Width="95px" PostBackUrl="~/FindID.aspx" CssClass="button" />
+                    <asp:Button ID="FindIDBut" runat="server" Height="40px" Text="아이디 찾기" Width="95px" PostBackUrl="~/FindID.aspx" CssClass="subbutton" />
                 </td>
                 <td class="auto-style31"></td>
                 <td class="auto-style32"></td>
@@ -86,7 +86,7 @@
                     <asp:TextBox ID="IDText" runat="server" Width="255px"></asp:TextBox>
                 </td>
                 <td class="auto-style16" rowspan="2">
-                    <asp:Button ID="FindPwButton" runat="server" CssClass="button" Font-Size="12px" Font-Strikeout="False" Height="76px" Style="margin-left: 0px" Text="비밀번호 찾기" Width="102px" />
+                    <asp:Button ID="FindPwButton" runat="server" CssClass="subbutton" Font-Size="12px" Font-Strikeout="False" Height="76px" Style="margin-left: 0px" Text="비밀번호 찾기" Width="102px" />
                 </td>
                 <td class="auto-style36"></td>
             </tr>
