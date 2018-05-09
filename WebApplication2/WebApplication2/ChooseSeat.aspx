@@ -121,7 +121,7 @@
             <td class="auto-style22" colspan="5"></td>
         </tr>
         <tr>
-            <td class="auto-style5">예매할 좌석 수:</td>
+            <td class="auto-style5"><strong>좌석 수: </strong> </td>
             <td class="auto-style29">
                 <asp:DropDownList ID="DropDownList1" runat="server">
                     <asp:ListItem>0</asp:ListItem>
@@ -135,8 +135,10 @@
                     <asp:ListItem>8</asp:ListItem>
                 </asp:DropDownList>
             </td>
-            <td class="auto-style8">상영관:</td>
-            <td class="auto-style38">잔여 좌석 수:</td>
+            <td class="auto-style8"><strong>상영관:  </strong><asp:Label ID="ScreenLabel" runat="server" Text="1관"></asp:Label>
+            </td>
+            <td class="auto-style38"><strong>잔여 좌석 수:  </strong><asp:Label ID="SeatNumLabel" runat="server" Text="0"></asp:Label>
+            </td>
             <td class="auto-style9">&nbsp;</td>
         </tr>
         <tr>
