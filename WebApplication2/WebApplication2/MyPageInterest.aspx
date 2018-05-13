@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MyPageDiscount.aspx.cs" Inherits="WebApplication2.WebForm4" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="MyPageInterest.aspx.cs" Inherits="WebApplication2.MyPageInterest" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
-    MyPage 통신사 할인
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
+
 
 
 
@@ -29,6 +29,11 @@
             width: 144px;
             height: 55px;
         }
+        .auto-style103 {
+            width: 194px;
+            height: 55px;
+            text-align: left;
+        }
         .auto-style101 {
             width: 145px;
             height: 55px;
@@ -43,18 +48,6 @@
             text-align: left;
             height: 22px;
         }
-        .auto-style99 {
-            width: 195px;
-            height: 55px;
-        }
-        .auto-style92 {
-            width: 145px;
-        }
-        .auto-style103 {
-            width: 194px;
-            height: 55px;
-            text-align: left;
-        }
         .auto-style104 {
             font-size: 18px;
             font-weight: bold;
@@ -62,7 +55,14 @@
             height: 22px;
             width: 194px;
         }
-    </style>
+        .auto-style99 {
+            width: 195px;
+            height: 55px;
+        }
+        .auto-style92 {
+            width: 145px;
+        }
+        </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="contentBody" runat="server">
     <div class="menutitle">
@@ -105,7 +105,7 @@
             <tr>
                 <td class="auto-style54" rowspan="5">&nbsp;</td>
                 <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">통신사 이름</td>
+                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
                 <td class="auto-style103">&nbsp;</td>
                 <td class="auto-style101">&nbsp;</td>
                 <td class="auto-style101"></td>
@@ -113,7 +113,7 @@
             </tr>
             <tr>
                 <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">할인 금액</td>
+                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
                 <td class="auto-style104" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
                 <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
                 <td class="auto-style101"></td>
@@ -121,7 +121,7 @@
             </tr>
             <tr>
                 <td class="auto-style93"></td>
-                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">핸드폰 번호</td>
+                <td class="auto-style102" style="border-right-style: inherit; border-left-style: inherit; border-left-width: 0px;">&nbsp;</td>
                 <td class="auto-style103">&nbsp;</td>
                 <td class="auto-style101">&nbsp;</td>
                 <td class="auto-style101"></td>

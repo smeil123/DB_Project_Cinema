@@ -80,6 +80,7 @@
                             </asp:TreeNode>
                             <asp:TreeNode Text="예매내역" Value="예매내역확인">
                                 <asp:TreeNode Text="예매내역 확인" Value="예매내역 확인" NavigateUrl="MyPageCheckResv.aspx"></asp:TreeNode>
+                                <asp:TreeNode Text="관심내역 확인" Value="관심내역 확인" NavigateUrl="MyPageInterest.aspx"></asp:TreeNode>
                             </asp:TreeNode>
                             <asp:TreeNode Text="포인트" Value="포인트">
                                 <asp:TreeNode Text="포인트 조회" Value="포인트 조회" NavigateUrl="MyPageMyPoint.aspx"></asp:TreeNode>

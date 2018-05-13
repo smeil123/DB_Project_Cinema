@@ -67,13 +67,14 @@
                     <asp:TreeView ID="TreeView2" runat="server" CssClass="auto-style2" BorderStyle="None" Font-Bold="False" Font-Overline="False" Font-Size="Large" ForeColor="#003300" Height="263px" ImageSet="Simple" Width="172px">
                         <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
                         <Nodes>
-                            <asp:TreeNode Text="회원정보" Value="회원정보">
+                           <asp:TreeNode Text="회원정보" Value="회원정보">
                                 <asp:TreeNode Text="개인정보 수정" Value="개인정보 수정" NavigateUrl="MyPageChangeInfo.aspx"></asp:TreeNode>
                                 <asp:TreeNode Text="비밀번호 변경" Value="비밀번호 변경" NavigateUrl="MyPageChangePwd.aspx"></asp:TreeNode>
                                 <asp:TreeNode Text="회원탈퇴" Value="회원탈퇴" NavigateUrl="MyPageQuitMem.aspx"></asp:TreeNode>
                             </asp:TreeNode>
                             <asp:TreeNode Text="예매내역" Value="예매내역확인">
                                 <asp:TreeNode Text="예매내역 확인" Value="예매내역 확인" NavigateUrl="MyPageCheckResv.aspx"></asp:TreeNode>
+                                <asp:TreeNode Text="관심내역 확인" Value="관심내역 확인" NavigateUrl="MyPageInterest.aspx"></asp:TreeNode>
                             </asp:TreeNode>
                             <asp:TreeNode Text="포인트" Value="포인트">
                                 <asp:TreeNode Text="포인트 조회" Value="포인트 조회" NavigateUrl="MyPageMyPoint.aspx"></asp:TreeNode>
